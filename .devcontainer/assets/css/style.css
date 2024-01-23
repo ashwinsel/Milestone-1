@@ -12,7 +12,7 @@
 #logo{
     font-family: 'Samarkan', sans-serif;
     text-shadow: #b57324;
-    text-emphasis-color: #777;
+    text-emphasis-color: #900a0a;
     float: left;
     font-weight: 700;
     font-size: 300%;
@@ -48,36 +48,39 @@ body{
     color: #b57324;
 }
 
+/* hero image and text */
 #hero-image-bckgrd {
     height: 37.5rem;
     width: 100%;
     overflow: hidden;
     position: relative;
-}
-
-#hero-image {
+ }
+ 
+ #hero-image {
+    height: 37.5rem;
     width: 100%;
-    background-image: url("../images/Hero.jpg");
-    background-size: cover;
-    position: relative;
-    margin-top: 2px;
-}
+    background: url("../images/hero-img1.jpg") no-repeat center center;
+ }
+ 
 
-#text-in-hero {
-    margin: 70px 100px 70px 100px;
-    background-color: rgba(144, 49, 24, 0.5);
-    text-shadow: 0px 0px 15px rgba(0,0,0,.5);
-    transform: translate(31%, 10%);
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    color: #fff;
-    padding: 5% 5em 5%;
-    font-size: 1.5em;
+ #text-in-hero {
+    letter-spacing: 0.25rem;
+    padding: 2.5rem;
+    background-color: rgba(243, 184, 142, 0.4);
     border-radius: 25px;
-}
+    border: 2px solid #ea070b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    text-align: center;
+    text-shadow: #800707;   
+ }
+ 
+ #text-in-hero p {
+    color: var(--white);
+    font-size: 150%;
+ }
+ 
 
-.footer{
-    height: 50px;
-    background-repeat:inherit;
-}
