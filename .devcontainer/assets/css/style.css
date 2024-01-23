@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/samarkan');
 
-<!-- setting deafult edges to 0 -->
+/* setting deafult edges to null */
 *{
     margin:0;
     padding:0;
     border:0;
 }
 
+/* Stylize Logo */
 #logo{
     font-family: 'Samarkan', sans-serif;
     text-shadow: #b57324;
@@ -20,10 +21,26 @@
     margin-left: 50px;
 }
 
+/* Stylize navigation elements*/
 #nav-elements{
     float: right;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 50px;
+    font-family: 'karma', sans-serif;
+    color: #903118;
+}
+
+#nav-elements li a{
+    color:#903118;
+    font-family: 'karma', sans-serif;
+    font-weight: 500;
+    font-size: larger;
+}
+
+#nav-elements li a:hover{
+    color: #800707;
+    box-shadow: 1 1 1px #b57324;
+    text-shadow: 0 0 5px #b57324;
 }
 
 body{
