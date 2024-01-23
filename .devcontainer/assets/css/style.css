@@ -1,7 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@1,600&display=swap');
 @import url('https://fonts.cdnfonts.com/css/samarkan');
 
-.logo{
+<!-- setting deafult edges to 0 -->
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#logo{
     font-family: 'Samarkan', sans-serif;
+    text-shadow: #b57324;
+    text-emphasis-color: #777;
+    float: left;
+    font-weight: 700;
+    font-size: 300%;
     color: #903118;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#nav-elements{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+body{
+    font-family: 'karma', sans-serif;
+    color: #b57324;
 }
