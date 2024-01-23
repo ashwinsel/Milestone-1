@@ -17,14 +17,14 @@
     font-weight: 700;
     font-size: 300%;
     color: #903118;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 
 /* Stylize navigation elements*/
 #nav-elements{
     float: right;
-    margin-top: 40px;
+    margin-top: 52px;
     margin-right: 50px;
     font-family: 'karma', sans-serif;
     color: #903118;
@@ -46,4 +46,38 @@
 body{
     font-family: 'karma', sans-serif;
     color: #b57324;
+}
+
+#hero-image-bckgrd {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    width: 100%;
+    background-image: url("../images/Hero.jpg");
+    background-size: cover;
+    position: relative;
+    margin-top: 2px;
+}
+
+#text-in-hero {
+    margin: 70px 100px 70px 100px;
+    background-color: rgba(144, 49, 24, 0.5);
+    text-shadow: 0px 0px 15px rgba(0,0,0,.5);
+    transform: translate(31%, 10%);
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    padding: 5% 5em 5%;
+    font-size: 1.5em;
+    border-radius: 25px;
+}
+
+.footer{
+    height: 50px;
+    background-repeat:inherit;
 }
