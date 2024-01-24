@@ -59,7 +59,7 @@ body{
  #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url("/assets/images/Hero-img3.jpg") no-repeat center center;
+    background: url("../images/Hero-img3.jpg") no-repeat center center;
     opacity: 0.8;
  }
  
