@@ -48,7 +48,7 @@ body{
     color: #b57324;
 }
 
-/* hero image and text */
+/* hero image and the text within it */
 #hero-image-bckgrd {
     height: 37.5rem;
     width: 100%;
@@ -60,6 +60,7 @@ body{
     height: 37.5rem;
     width: 100%;
     background: url("../images/Hero-img3.jpg") no-repeat center center;
+    opacity: 0.8;
  }
  
 
@@ -87,3 +88,39 @@ body{
  }
  
 
+/* 3 image and info cards */
+
+.Image1, .Image2, .Image3 {
+    
+    text-align: center;
+    text-shadow: 1px 1px #777;
+    text-decoration: #900a0a;  
+    padding: 4rem;
+    background-color: rgba(243, 184, 142, 0.4);
+    border-radius: 80px;
+    border: 2px solid #ea070b;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 30px;
+    opacity: 0.5;   
+
+}
+
+.Image1 {
+    background: url("../images/info-card1.jpg") no-repeat center center;
+}
+
+.Image2 :hover {
+    background: url("") no-repeat center center;
+    
+}
+
+.Image3{
+    background: url("") no-repeat center center;
+    
+ 
+}
+
+.info-grid {
+    
+}
