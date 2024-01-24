@@ -59,27 +59,30 @@ body{
  #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url("../images/hero-img1.jpg") no-repeat center center;
+    background: url("../images/Hero-img3.jpg") no-repeat center center;
  }
  
 
  #text-in-hero {
-    letter-spacing: 0.25rem;
-    padding: 2.5rem;
+    color: #ea070b;
+    text-align: center;
+    text-shadow: 1px 1px #777;
+    text-decoration: #900a0a;  
+    padding: 4rem;
     background-color: rgba(243, 184, 142, 0.4);
-    border-radius: 25px;
+    border-radius: 80px;
     border: 2px solid #ea070b;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: aliceblue;
-    text-align: center;
-    text-shadow: #800707;   
  }
  
  #text-in-hero p {
-    color: var(--white);
+    color: #ea070b;
+    text-align: center;
+    text-shadow: 1px 1px #777;
+    text-decoration: #900a0a;
     font-size: 150%;
  }
  
