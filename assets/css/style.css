@@ -97,7 +97,7 @@ body{
  }
  
  .btn-style {
-    border: 2px solid #ea070b;
+    border: 2px solid #ea070b;    
  }
 
 /* 3 image and info cards */
@@ -114,7 +114,7 @@ body{
     margin-left: 5%;
     margin-right: 4%;
     margin-top: 30px;
-     
+    animation: 3s; 
 
 }
 
@@ -124,19 +124,20 @@ body{
     opacity: 1;
     font-size: 20px;
     background-color: rgba(245, 118, 0);
+    color: #ffffff;
+    text-shadow: 0 0 5px #000000;
     color: #800707;
-    box-shadow: 1 1 1px #b57324;
-    text-shadow: 0 0 5px #b57324;
+    box-shadow: 1 1 1px #b57324;    
     box-shadow: 5px 10px #f5fe06;
     -webkit-transition-delay: .3s;
     -moz-transition-delay: .3s;
     -o-transition-delay: .3s;
     transition-delay: .3s;
-  }
+  } 
   
   .hidden-text {
     
-    color: #800707;
+    color: #000000;
     box-shadow: 1 1 1px #b57324;
     text-shadow: 0 0 5px #b57324;
     background-color: rgba(245, 118, 0);
@@ -146,5 +147,48 @@ body{
     -moz-transition: .3s .5s;
     -o-transition: .3s .5s;
     transition: .3s .5s;
-  }
-  
+  } 
+
+ /* Contact Us page styling */
+
+#contact-page {
+    height: 37.5rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+#contact-image {
+    height: 37.5rem;
+    width: 100%;
+    background-image: url("../images/Hero-img3.jpg");
+}
+
+#text-in-contact {
+    font-family: 'Karma', sans-serif;    
+    color: #000000;
+    text-align: left;
+    padding: 4rem;
+    background-color: rgba(243, 184, 142, 0.8);
+    border-radius: 80px;
+    border: 2px solid #ea070b;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#input-name {
+    padding-bottom: 20px;
+    text-align: left;
+} 
+
+#input-mail {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#input-message {
+    height: 9.375rem;
+}

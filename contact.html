@@ -37,15 +37,39 @@
             </ul>
         </nav>
     </header>
- 
-    <section id="hero-image-bckgrd">
-        <div id="hero-image">
-            <div id="text-in-hero">
-              <h2>Namaskar!</h2>
-              <p>A Marathi Community in Wales</p>
+
+    <section id="contact-page">
+        <div id="contact-image">
+            <div id="text-in-contact">
+              <h3>Contact Us!</h3>
+                <div>  
+                <form action="thank-you.html" method="GET">
+                    <div class="input input-name">
+                        <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+                    </div>
+                    <div class="input input-mail">    
+                        <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                    </div>
+                    <div class="input input-msg">
+                        <input type="text" name="query" placeholder="Enter Your Message/Query Here" required>
+                    </div>    
+                    <div class="input radio-input">
+                        <p>
+                            Would you like to sign up to our mailing list to stay updated about upcoming events?
+                        </p> <br>
+                        <input type="radio" id="yes-rad" name="consent" value="yes" checked>
+                        <label for="opt-in" class="yes-rad1">Yes!</label>
+                        <input type="radio" id="no-thnk" name="consent" value="no" checked>
+                        <label for="no-thnk">No!</label>
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-style">Submit</button> 
+                </form>
+                </div>
             </div>
         </div>
     </section>
+ 
+    
     <section>
         footer fixed (this is contact page)
     </section>
