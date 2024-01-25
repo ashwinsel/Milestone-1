@@ -89,11 +89,11 @@ body{
 
  /* adding border radius to email input and button to match the outer box */
 
- input {
+.main-page {
     border: 2px solid #ea070b;
     border-radius: 5px;
     width: 200px;
-    text-align: center
+    text-align: center;
  }
  
  .btn-style {
@@ -151,6 +151,7 @@ body{
 
  /* Contact Us page styling */
 
+
 #contact-page {
     height: 37.5rem;
     width: 100%;
@@ -165,10 +166,8 @@ body{
     background-image: url("../images/Hero-img3.jpg");
 }
 
-#text-in-contact {
-    font-family: 'Karma', sans-serif;    
-    color: #000000;
-    text-align: left;
+#contact-container {
+    font-family: 'Karma', sans-serif;
     padding: 4rem;
     background-color: rgba(243, 184, 142, 0.8);
     border-radius: 80px;
@@ -179,16 +178,65 @@ body{
     transform: translate(-50%, -50%);
 }
 
-#input-name {
-    padding-bottom: 20px;
-    text-align: left;
-} 
-
-#input-mail {
-    padding-bottom: 20px;
-    text-align: left;
+#contact-container header {
+    font-family: 'Karma', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;    
+    text-align: center;
 }
 
-#input-message {
-    height: 9.375rem;
+#contact-container .form {
+    margin-top: 30px;
+}
+
+.input-box {
+    margin-top: 20px;
+    border: 2px solid #ea070b;
+    border-radius: 5px;
+    width: 200px;
+    text-align: left;
+
+}
+
+.form .input-query {
+        height: 100%;
+}
+
+.form .radio-message {
+    margin-top: 30px;
+
+}
+
+/* footer */
+footer {
+	background-image: url("../images/Hero-img3.jpg");
+	padding: 1em;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+    opacity: 0.8;
+    height: fit-content;
+}
+
+footer > text {
+    text-align: left;
+    color:#000000;
+    font-weight: 700;
+    text-underline-offset: 8px;
+}
+
+footer > span {
+	color: rgb(253, 252, 252);
+}
+
+footer > a {
+	color: rgb(248, 248, 247);
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 20px;
+}
+
+footer > p {
+	color: silver;
 }

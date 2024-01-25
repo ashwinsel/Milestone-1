@@ -38,40 +38,65 @@
         </nav>
     </header>
 
-    <section id="contact-page">
-        <div id="contact-image">
-            <div id="text-in-contact">
-              <h3>Contact Us!</h3>
-                <div>  
-                <form action="thank-you.html" method="GET">
-                    <div class="input input-name">
-                        <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+    <main>
+        <section id="contact-page">
+            <div id="contact-image">
+                <div id="contact-container">
+                <h3>Contact Us!</h3>
+                    <div>  
+                    <form action="thank-you.html" method="GET" class="form">
+                        <div class="input-box">
+                            <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+                        </div>
+                        <div class="input-box">                                  
+                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                        </div class="input-box">  
+                        <div class="input-box input-query">      
+                            <input type="text" name="query" placeholder="Enter Your Query" required>
+                        </div>
+                        <div class="radio-message">    
+                            <p>
+                                    Would you like to sign up to our mailing list <br> to stay updated about upcoming events?
+                            </p>
+                        </div>
+                        <div>
+                            <span>       
+                                <label for="opt-in" class="yes-rad1">Yes Please</label>
+                                <input type="radio" id="yes-rad" name="consent" value="Yes" checked>
+                            </span>
+                            <span>
+                                <label for="no-thnk">No Thank You</label>
+                                <input type="radio" id="no-thnk" name="consent" value="no" checked>                             
+                            </span>                        
+                        </div class="input-box">   
+                            <button type="submit" class="btn btn-danger btn-style">Submit</button>
+                        </div> 
+                         
+                    </form>
                     </div>
-                    <div class="input input-mail">    
-                        <input type="email" name="email" placeholder="Enter Your Email Address" required>
-                    </div>
-                    <div class="input input-msg">
-                        <input type="text" name="query" placeholder="Enter Your Message/Query Here" required>
-                    </div>    
-                    <div class="input radio-input">
-                        <p>
-                            Would you like to sign up to our mailing list to stay updated about upcoming events?
-                        </p> <br>
-                        <input type="radio" id="yes-rad" name="consent" value="yes" checked>
-                        <label for="opt-in" class="yes-rad1">Yes!</label>
-                        <input type="radio" id="no-thnk" name="consent" value="no" checked>
-                        <label for="no-thnk">No!</label>
-                    </div>
-                    <button type="submit" class="btn btn-danger btn-style">Submit</button> 
-                </form>
-                </div>
-            </div>
-        </div>
-    </section>
- 
+                </div> 
+            </div>           
+        </section>
+    </main>
     
     <section>
-        footer fixed (this is contact page)
+        <aside>
+            
+                <p>lkjdslfkjdslkfjlskdjkf lksdk</p>
+            
+        </aside>
+    </section>
+
+    <section>
+        <footer class="footer-box">
+
+            <span>Find us on:</span>
+    
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            <text type="email">info@wms.co.uk</text>
+            
+        </footer>
     </section>
 </body>
 </html>
