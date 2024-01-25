@@ -65,9 +65,9 @@ body{
  
 
  #text-in-hero {
-    color: #ea070b;
+    color: #000000;
     text-align: center;
-    text-shadow: 1px 1px #777;
+    text-shadow: 1px 1px #ffffff;
     text-decoration: #900a0a;  
     padding: 4rem;
     background-color: rgba(243, 184, 142, 0.4);
@@ -80,29 +80,41 @@ body{
  }
  
  #text-in-hero p {
-    color: #ea070b;
+    color: #0b0b0b;
     text-align: center;
-    text-shadow: 1px 1px #777;
+    text-shadow: 1px 1px #f20707;
     text-decoration: #900a0a;
     font-size: 150%;
  }
+
+ /* adding border radius to email input and button to match the outer box */
+
+ input {
+    border: 2px solid #ea070b;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center
+ }
  
+ .btn-style {
+    border: 2px solid #ea070b;
+ }
 
 /* 3 image and info cards */
 
 .Image1, .Image2, .Image3 {
     
+    background-image: url("../images/infocard-img.jpg");
     text-align: center;
-    text-shadow: 1px 1px #777;
-    text-decoration: #900a0a;  
+    text-shadow: 1px 1px #080808;
     padding: 4rem;
-    background-color: rgba(243, 184, 142, 0.4);
+    background-color: rgba(245, 118, 0);
     border-radius: 60px;
     border: 2px solid #ea070b;
-    position: absolute;
     margin-left: 5%;
+    margin-right: 4%;
     margin-top: 30px;
-    opacity: 0.9;   
+     
 
 }
 
@@ -110,13 +122,12 @@ body{
 
 .hidden-text:hover {
     opacity: 1;
-    font-size: larger;
-    background-color: #b57324;
-    -webkit-transform: rotate(360deg) scale(1);
-    -moz-transform: rotate(360deg) scale(1);
-    -ms-transform: rotate(360deg) scale(1);
-    -o-transform: rotate(360deg) scale(1);
-    transform: rotate(360deg) scale(1);
+    font-size: 20px;
+    background-color: rgba(245, 118, 0);
+    color: #800707;
+    box-shadow: 1 1 1px #b57324;
+    text-shadow: 0 0 5px #b57324;
+    box-shadow: 5px 10px #f5fe06;
     -webkit-transition-delay: .3s;
     -moz-transition-delay: .3s;
     -o-transition-delay: .3s;
@@ -124,8 +135,13 @@ body{
   }
   
   .hidden-text {
-    opacity: 0.5;
-    font-size: 20px;
+    
+    color: #800707;
+    box-shadow: 1 1 1px #b57324;
+    text-shadow: 0 0 5px #b57324;
+    background-color: rgba(245, 118, 0);
+    opacity: 0.8;
+    font-size: 0px;
     -webkit-transition: .3s .5s;
     -moz-transition: .3s .5s;
     -o-transition: .3s .5s;
