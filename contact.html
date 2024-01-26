@@ -46,13 +46,13 @@
                     <div>  
                     <form action="thank-you.html" method="GET" class="form">
                         <div class="input-box">
-                            <input type="text" name="fullname" placeholder="Enter Your Full Name" required>
+                            <input type="text" name="fullname" placeholder="Your Full Name" aria-label="Type your Full Name Here" required>
                         </div>
                         <div class="input-box">                                  
-                            <input type="email" name="email" placeholder="Enter Your Email Address" required>
+                            <input type="email" name="email" placeholder="Your Email Address" aria-label="Type your email address here" required>
                         </div class="input-box">  
                         <div class="input-box input-query">      
-                            <input type="text" name="query" placeholder="Enter Your Query" required>
+                            <input type="text" name="query" placeholder="Enter Your Query" aria-label="Type your query here" required>
                         </div>
                         <div class="radio-message">    
                             <p>
@@ -62,14 +62,14 @@
                         <div>
                             <span>       
                                 <label for="opt-in" class="yes-rad1">Yes Please</label>
-                                <input type="radio" id="yes-rad" name="consent" value="Yes" checked>
+                                <input type="radio" id="yes-rad" name="consent" value="Yes" aria-label="click to give your consent" checked>
                             </span>
                             <span>
                                 <label for="no-thnk">No Thank You</label>
-                                <input type="radio" id="no-thnk" name="consent" value="no" checked>                             
+                                <input type="radio" id="no-thnk" name="consent" value="no" aria-label="click to deny your consent" checked>                             
                             </span>                        
                         </div class="input-box">   
-                            <button type="submit" class="btn btn-danger btn-style">Submit</button>
+                            <button type="submit" class="btn btn-danger btn-style" aria-label="click here to submit your query">Submit</button>
                         </div> 
                          
                     </form>
