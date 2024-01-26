@@ -100,11 +100,10 @@ body{
     border: 2px solid #ea070b;    
  }
 
-/* 3 image and info cards */
+/* 3 blank and info cards */
 
 .Image1, .Image2, .Image3 {
     
-    background-image: url("../images/infocard-img.jpg");
     text-align: center;
     text-shadow: 1px 1px #080808;
     padding: 4rem;
@@ -114,6 +113,7 @@ body{
     margin-left: 5%;
     margin-right: 4%;
     margin-top: 30px;
+    margin-bottom: 30px;
     animation: 3s; 
 
 }
@@ -123,10 +123,9 @@ body{
 .hidden-text:hover {
     opacity: 1;
     font-size: 20px;
-    background-color: rgba(245, 118, 0);
-    color: #ffffff;
+    background-color: rgba(245, 118, 0);    
+    opacity: 0.8;
     text-shadow: 0 0 5px #000000;
-    color: #800707;
     box-shadow: 1 1 1px #b57324;    
     box-shadow: 5px 10px #f5fe06;
     -webkit-transition-delay: .3s;
@@ -141,7 +140,7 @@ body{
     box-shadow: 1 1 1px #b57324;
     text-shadow: 0 0 5px #b57324;
     background-color: rgba(245, 118, 0);
-    opacity: 0.8;
+    
     font-size: 0px;
     -webkit-transition: .3s .5s;
     -moz-transition: .3s .5s;
@@ -212,31 +211,27 @@ body{
 footer {
 	background-image: url("../images/Hero-img3.jpg");
     padding-bottom: 16px;	
-	text-align: right;
-	/*position: fixed;*/
 	width: 100%;
     opacity: 0.8;
     height: fit-content;
+    position: relative;
+    text-align: right;
 }
 
-footer > text {
+footer > span {
     text-align: left;
     color:#000000;
     font-weight: 700;
     text-underline-offset: 8px;
 }
 
-footer > span {
-	color: rgb(253, 252, 252);
-}
-
 footer > a {
-	color: rgb(248, 248, 247);
+	color: #000000;
 	text-decoration: none;
-	padding: 0 15px;
+    font-weight: 600;
+	padding: 0 5px;
 	font-size: 20px;
+    text-align: right;
 }
 
-footer > p {
-	color: silver;
-}
+
