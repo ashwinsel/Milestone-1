@@ -6,10 +6,7 @@
     margin:0;
     padding:0;
     border:0;
-}
-
-:root {
-    font-family: 'karma', 'playfair', sans-serif;       
+    font-family: 'karma', 'playfair', sans-serif;
 }
 
 /* Stylize Logo */
@@ -134,7 +131,7 @@ body{
     transition-delay: .3s;
   } 
   
-  .hidden-text {
+.hidden-text {
     
     color: #000000;
     box-shadow: 1 1 1px #b57324;
@@ -226,6 +223,59 @@ body{
     transform: rotate(180deg);
 }    
 
+/* Gallery page styling */
+
+.image-grid {    
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.g-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px 20px 0 20px;
+
+}
+
+.g-container .g-heading {
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.g-container .g-heading h3 {
+    font-size: 3em;
+    color: #800707;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #800707;
+    
+}
+
+.g-container .g-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+.g-container .g-box .p-col-1 {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;      
+}
+
+.g-container .g-box .p-col-1 img {
+    object-fit: cover;
+    width: 300px;
+    height: 100%;
+    border: #CCC;    
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
 /* For larger to medium screens size from 1300px wide and down */
 @media screen and (max-width: 1300px) {
     #contact-page {
@@ -304,7 +354,7 @@ body{
     }
  }
     
-}
+
 
 /* footer */
 footer {
