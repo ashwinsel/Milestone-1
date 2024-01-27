@@ -226,6 +226,8 @@ body{
 /* Gallery page styling */
 
 .image-grid {    
+    background-image: url("../images/Hero-img3.jpg");
+    opacity: 0.9;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -237,7 +239,8 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px 20px 0 20px;
+    margin: 20px 0 0 20px;
+    width: auto;
 
 }
 
@@ -246,115 +249,42 @@ body{
     padding-bottom: 50px;
 }
 
-.g-container .g-heading h3 {
+.g-container .g-heading h5 {
     font-size: 3em;
-    color: #800707;
+    color: #b57324;
+    text-shadow: 1px 1px 1px #000000;
     font-weight: 500;
     padding-bottom: 10px;
-    border-bottom: 2px solid #800707;
+    padding-top: 10px;
+    border-bottom: 2px solid #800707;        
+    background-color: rgba(243, 184, 142, 0.8);
+    border-radius: 26px;
+    border: 2px solid #ea070b;
+    text-align: center;
     
 }
 
 .g-container .g-box {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;        
 }
 
 .g-container .g-box .p-col-1 {
     display: flex;
     flex-direction: column;
-    width: 32.5%;      
+    width: 33%;      
 }
 
 .g-container .g-box .p-col-1 img {
     object-fit: cover;
-    width: 300px;
+    width: 100%;
     height: 100%;
-    border: #CCC;    
-    padding-bottom: 5px;
-    border-radius: 2px;
+    border: #CCC;     
+    border-radius: 30px;
+    border: 1px solid #800707;
+    margin-bottom: 5px;
 }
-
-/* For larger to medium screens size from 1300px wide and down */
-@media screen and (max-width: 1300px) {
-    #contact-page {
-        height: 37.5rem;
-        position: relative;
-        overflow: hidden;
-    }
-        
-    #contact-page, #contact-container {
-        width: 22.875rem;
-        height: fit-content;
-        
-    }
-
-
-
-    .input-value{
-        font-size: 119%;
-    }
-
-    .form .radio-message .label {
-        
-        font-size: 200%;
-    }
-
-
-
-
-
- }
- 
- /* For small screen sizes from 750px wide and down */
- @media screen and (max-width: 750px) {
-    #contact-page, #contact-container {
-        width: 22.875rem;
-        height: fit-content;
-    }
-
-    #contact-image {
-        background: none;
-    }
-
-    #contact-container h3 {
-        font-size: 3.75rem;
-        text-align: center;
-        margin-bottom: -3.75rem;
-
-    }
-    
- }
- 
- /* For very small screen sizes from 450px wide and down */
- @media screen and (max-width: 450px) {
-    #contact-panel-left,
-    #contact-panel-right {
-       width: 15.75rem;
-       height: 41.25rem;
-       padding: 2rem 1.5rem;
-    }
- 
-    #welcome-text {
-       padding: 2rem 0.625rem;
-    }
- 
-    #welcome-text h3 {
-       font-size: 400%
-    }
- }
- 
- /* For very small screen sizes re-size the flip-cards */
- @media screen and (max-width: 320px) {
-    .flip-card,
-    .flip-card-front img {
-       width: 18.75rem;
-       height: 18.75rem;
-    }
- }
-    
-
 
 /* footer */
 footer {
@@ -384,4 +314,111 @@ footer > a {
     margin-right: 5px;
 }
 
+/* Styling for responsive UX */
 
+/* For larger to medium screens size from 1300px wide and down */
+@media screen and (max-width: 1300px) {
+
+    /* contact.html page */
+    #contact-page {
+        height: 37.5rem;
+        position: relative;
+        overflow: hidden;
+    }
+        
+    #contact-page, #contact-container {
+        width: 22.875rem;
+        height: fit-content;
+        
+    }
+
+
+
+    .input-value{
+        font-size: 119%;
+    }
+
+    .form .radio-message .label {
+        
+        font-size: 200%;
+    }
+
+    /* gallery.html page */
+
+
+
+
+
+
+ }
+ 
+ /* For small screen sizes from 750px wide and down */
+ @media screen and (max-width: 750px) {
+
+/* conatc.html page */    
+    #contact-page, #contact-container {
+        width: 22.875rem;
+        height: fit-content;
+    }
+
+    #contact-image {
+        background: none;
+    }
+
+    #contact-container h3 {
+        font-size: 3.75rem;
+        text-align: center;
+        margin-bottom: -3.75rem;
+
+    }
+
+/* gallery.html page */
+    
+.g-container .g-box {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin-right: 5%; 
+}
+
+.g-container .g-heading h5 {
+    font-size: 1.6em;
+    color: #b57324;
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #800707;
+    padding-top: 10px;
+    background-color: rgba(243, 184, 142, 0.8);
+    border-radius: 10px;
+    border: 2px solid #ea070b;
+    text-align: center;
+        
+    }
+    
+}
+    
+ 
+ 
+ /* For very small screen sizes from 450px wide and down */
+ @media screen and (max-width: 450px) {
+    #contact-panel-left,
+    #contact-panel-right {
+       width: 15.75rem;
+       height: 41.25rem;
+       padding: 2rem 1.5rem;
+    }
+ 
+    #welcome-text {
+       padding: 2rem 0.625rem;
+    }
+ 
+    #welcome-text h3 {
+       font-size: 400%
+    }
+ }
+ 
+ /* For very small screen */
+ @media screen and (max-width: 320px) {
+
+ }
