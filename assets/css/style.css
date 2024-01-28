@@ -148,24 +148,26 @@ body{
 
  /* Contact Us page styling */
 
-#contact-page {
+.contact-page {
     height: 37.5rem;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
-#contact-image {
+.contact-image {
     height: 37.5rem;
     width: 100%;
     background-image: url("../images/Hero-img3.jpg");
+    background-position: center;
     overflow: hidden;
 }
 
-#contact-container {
+.contact-container {
     font-family: 'Karma', sans-serif;
     padding: 4rem;    
     background-color: rgba(243, 184, 142, 0.8);
+    background-position: center;
     border-radius: 80px;
     border: 2px solid #ea070b;
     position: absolute;
@@ -174,7 +176,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-#contact-container header {
+.contact-container header {
     font-family: 'Karma', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
@@ -182,7 +184,7 @@ body{
     text-align: center;
 }
 
-#contact-container .form {
+.contact-container .form {
     margin-top: 30px;
 }
 
@@ -197,6 +199,7 @@ body{
 
 .input-value {
    background: rgb(250, 250, 250, 0.8);
+   background-position: center;
    font-family: Lato, sans-serif;
    font-size: 100%;
    font-weight: 600;
@@ -216,10 +219,11 @@ body{
 
 }
 
-#address-image {
+.address-image {
     height: 37.5rem;
     width: 100%;
     background-image: url("../images/Hero-img3.jpg");
+    background-position: center;
     overflow: hidden;
     transform: rotate(180deg);
 }    
@@ -228,6 +232,7 @@ body{
 
 .image-grid {    
     background-image: url("../images/Hero-img3.jpg");
+    background-position: center;
     opacity: 0.9;
     width: 100%;
     overflow: hidden;
@@ -316,6 +321,10 @@ footer > a {
     margin-right: 5px;
 }
 
+/* Events.html page styling */
+
+
+
 /* Styling for responsive UX */
 
 /* For larger to medium screens size from 1300px wide and down */
@@ -382,7 +391,7 @@ footer > a {
 
 .g-container .g-heading h5 {
     font-size: 1.6em;
-    color: #b57324;
+    color: #000000;
     text-shadow: 1px 1px 1px #000000;
     font-weight: 500;
     padding-bottom: 10px;
@@ -437,6 +446,30 @@ footer > a {
     #welcome-text h3 {
        font-size: 400%
     }
+
+    /* gallery.html page */
+
+    .g-container .g-box {    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+        margin-right: 5%; 
+    }
+    
+    .g-container .g-heading h5 {
+        font-size: 1.6em;
+        color: #000000;
+        text-shadow: 1px 1px 1px #000000;
+        font-weight: 500;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #800707;
+        padding-top: 10px;
+        background-color: rgba(243, 184, 142, 0.8);
+        border-radius: 10px;
+        border: 2px solid #ea070b;
+        text-align: center;
+            
+        }
  }
  
  /* For very small screen */
