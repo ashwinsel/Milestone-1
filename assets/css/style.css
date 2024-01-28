@@ -346,6 +346,12 @@ footer > a {
     overflow: hidden;
 }
 
+.e-details p {
+    font-size: larger;
+    
+    
+}
+
 /* Styling for responsive UX */
 
 /* For larger to medium screens size from 1300px wide and down */
