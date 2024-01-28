@@ -10,7 +10,7 @@
 }
 
 /* Stylize Logo */
-#logo{
+.logo{
     font-family: 'Samarkan', sans-serif;
     text-shadow: #b57324;
     text-emphasis-color: #900a0a;
@@ -61,7 +61,7 @@ body{
     height: 37.5rem;
     width: 100%;
     background: url("../images/Hero-img3.jpg") no-repeat center center;
-    opacity: 0.8;
+    opacity: 0.8;    
  }
  
 
@@ -107,11 +107,13 @@ body{
     background-color: rgba(245, 118, 0);
     border-radius: 60px;
     border: 2px solid #ea070b;
-    margin-left: 5%;
-    margin-right: 4%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin: 30px 10% 30px 5%;
     animation: 3s; 
+
+}
+
+.container {
+    margin: 25px 0 5px 0;
 
 }
 
@@ -120,10 +122,10 @@ body{
 .hidden-text:hover {
     opacity: 1;
     font-size: 20px;
+    font-weight: 500;
     background-color: rgba(245, 118, 0);    
-    opacity: 0.8;
-    text-shadow: 0 0 5px #000000;
-    box-shadow: 1 1 1px #b57324;    
+    opacity: 0.9;
+   
     box-shadow: 5px 10px #f5fe06;
     -webkit-transition-delay: .3s;
     -moz-transition-delay: .3s;
@@ -136,8 +138,7 @@ body{
     color: #000000;
     box-shadow: 1 1 1px #b57324;
     text-shadow: 0 0 5px #b57324;
-    background-color: rgba(245, 118, 0);
-    
+    background-color: rgba(245, 118, 0);    
     font-size: 0px;
     -webkit-transition: .3s .5s;
     -moz-transition: .3s .5s;
@@ -251,7 +252,7 @@ body{
 
 .g-container .g-heading h5 {
     font-size: 3em;
-    color: #b57324;
+    color: #000000;
     text-shadow: 1px 1px 1px #000000;
     font-weight: 500;
     padding-bottom: 10px;
@@ -295,6 +296,7 @@ footer {
     height: fit-content;
     position: relative;
     text-align: right;
+    border-top: 1px solid #800707;
 }
 
 footer > span {
@@ -343,14 +345,7 @@ footer > a {
         font-size: 200%;
     }
 
-    /* gallery.html page */
-
-
-
-
-
-
- }
+}
  
  /* For small screen sizes from 750px wide and down */
  @media screen and (max-width: 750px) {
