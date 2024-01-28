@@ -222,10 +222,10 @@ body{
 .address-image {
     height: 37.5rem;
     width: 100%;
-    background-image: url("../images/Hero-img3.jpg");
+    background-image: url("../images/f-Hero-img.jpg");
     background-position: center;
     overflow: hidden;
-    transform: rotate(180deg);
+
 }    
 
 /* Gallery page styling */
@@ -423,7 +423,10 @@ footer > a {
         
     }
     /* events.html page */
-
+    .e-details {
+        font-weight: 600;
+        text-align: justify;
+    }
     
 }
     
