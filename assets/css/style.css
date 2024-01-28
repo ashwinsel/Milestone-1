@@ -322,8 +322,27 @@ footer > a {
 }
 
 /* Events.html page styling */
+#e-hero-image {
+    background-image: url(../images/Hero-img3.jpg);
+    background-position: center;
+    opacity: 0.9;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
+.flyer-container {
+    max-width: 230px;
 
+}
+
+.event-image {
+    height: 37.5rem;
+    width: 100%;
+    background-image: url("../images/Hero-img3.jpg");
+    background-position: center;
+    overflow: hidden;
+}
 
 /* Styling for responsive UX */
 
@@ -403,6 +422,8 @@ footer > a {
     text-align: center;
         
     }
+    /* events.html page */
+
     
 }
     
@@ -470,6 +491,12 @@ footer > a {
         text-align: center;
             
         }
+    /* events.html page */
+    .flyer-container {
+        max-width: 20px;
+        height: 0px;
+    }  
+        
  }
  
  /* For very small screen */
