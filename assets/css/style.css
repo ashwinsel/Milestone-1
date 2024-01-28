@@ -11,8 +11,7 @@
 
 /* Stylize Logo */
 .logo{
-    font-family: 'Samarkan', sans-serif;
-    text-shadow: #b57324;
+    font-family: 'Samarkan', sans-serif;    
     text-emphasis-color: #900a0a;
     float: left;
     font-weight: 700;
@@ -39,8 +38,7 @@
 }
 
 .nav-elements li a:hover{
-    color: #800707;
-    box-shadow: 1 1 1px #b57324;
+    color: #800707;    
     text-shadow: 0 0 5px #b57324;
 }
 
@@ -134,8 +132,7 @@ body{
   
 .hidden-text {
     
-    color: #000000;
-    box-shadow: 1 1 1px #b57324;
+    color: #000000;    
     text-shadow: 0 0 5px #b57324;
     background-color: rgba(245, 118, 0);    
     font-size: 0px;
