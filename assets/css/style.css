@@ -173,15 +173,17 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 47%;
+    width: 59%;
+    height: 90%;
 }
 
-.contact-container header {
+.contact-container h2 {
     font-family: 'Karma', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #000000;    
-    text-align: center;
+    text-align: left;
+    font-weight: 700;
 }
 
 .contact-container .form {
@@ -375,8 +377,8 @@ footer > a {
 
 }
  
- /* For small screen sizes from 750px wide and down */
- @media screen and (max-width: 750px) {
+ /* For small screen sizes from 768px wide and down */
+ @media screen and (max-width: 768px) {
 
     /* index.html page */
 
@@ -392,7 +394,7 @@ footer > a {
         background: none;
     }
 
-    #contact-container h3 {
+    #contact-container h2 {
         font-size: 3.75rem;
         text-align: center;
         margin-bottom: -3.75rem;
@@ -427,6 +429,20 @@ footer > a {
         font-weight: 600;
         text-align: justify;
     }
+
+        /* contact.html page */
+
+        .contact-container {
+            width: 63%;
+            height: 95%;
+        }
+
+        .contact-container h2 {
+            font-size: 1.5rem;    
+            text-align: left;
+            font-weight: 700;
+        }
+        
     
 }
     
@@ -503,7 +519,14 @@ footer > a {
     /* contact.html page */
 
     .contact-container {
-        width: 93%;
+        width: 97%;
+        height: 93%;
+    }
+
+    .contact-container h2 {
+        font-size: 1.5rem;    
+        text-align: center;
+        font-weight: 700;
     }
         
  }
@@ -515,7 +538,13 @@ footer > a {
 
         .contact-container {
             width: 96%;
-            height: 93%;
+            height: 109%;
 
- }
+        }
+
+        .contact-container h2 {
+            font-size: 1.5rem;    
+            text-align: center;
+            font-weight: 700;
+        }
  }
