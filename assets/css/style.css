@@ -60,8 +60,7 @@ body{
  #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url("../images/Hero-img3.jpg") no-repeat center center;
-    opacity: 0.8;    
+    background: url("../images/Hero-img3.jpg") no-repeat center center;       
  }
  
 
@@ -174,6 +173,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 47%;
 }
 
 .contact-container header {
@@ -499,10 +499,23 @@ footer > a {
         max-width: 20px;
         height: 0px;
     }  
+
+    /* contact.html page */
+
+    .contact-container {
+        width: 93%;
+    }
         
  }
  
  /* For very small screen */
  @media screen and (max-width: 320px) {
 
+        /* contact.html page */
+
+        .contact-container {
+            width: 96%;
+            height: 93%;
+
+ }
  }
