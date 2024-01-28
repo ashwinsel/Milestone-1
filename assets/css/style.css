@@ -58,7 +58,7 @@ body{
  #hero-image {
     height: 37.5rem;
     width: 100%;
-    background: url("../images/Hero-img3.jpg") no-repeat center center;       
+    background: url("../images/heroimg3.jpg") no-repeat center center;       
  }
  
 
@@ -154,7 +154,7 @@ body{
 .contact-image {
     height: 37.5rem;
     width: 100%;
-    background-image: url("../images/Hero-img3.jpg");
+    background-image: url("../images/heroimg3.jpg");
     background-position: center;
     overflow: hidden;
 }
@@ -221,7 +221,7 @@ body{
 .address-image {
     height: 37.5rem;
     width: 100%;
-    background-image: url("../images/f-Hero-img.jpg");
+    background-image: url("../images/fhero.jpg");
     background-position: center;
     overflow: hidden;
 
@@ -230,7 +230,7 @@ body{
 /* Gallery page styling */
 
 .image-grid {    
-    background-image: url("../images/Hero-img3.jpg");
+    background-image: url("../images/heroimg3.jpg");
     background-position: center;
     opacity: 0.9;
     width: 100%;
@@ -293,7 +293,7 @@ body{
 
 /* footer */
 footer {
-	background-image: url("../images/Hero-img3.jpg");
+	background-image: url("../images/heroimg3.jpg");
     padding-bottom: 16px;	
 	width: 100%;
     opacity: 0.8;
@@ -322,7 +322,7 @@ footer > a {
 
 /* Events.html page styling */
 #e-hero-image {
-    background-image: url(../images/Hero-img3.jpg);
+    background-image: url(../images/heroimg3.jpg);
     background-position: center;
     opacity: 0.9;
     width: 100%;
@@ -338,7 +338,7 @@ footer > a {
 .event-image {
     height: 37.5rem;
     width: 100%;
-    background-image: url("../images/Hero-img3.jpg");
+    background-image: url("../images/heroimg3.jpg");
     background-position: center;
     overflow: hidden;
 }
