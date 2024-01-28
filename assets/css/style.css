@@ -23,7 +23,7 @@
 }
 
 /* Stylize navigation elements*/
-#nav-elements{
+.nav-elements{
     float: right;
     margin-top: 52px;
     margin-right: 50px;
@@ -31,14 +31,14 @@
     color: #903118;
 }
 
-#nav-elements li a{
+.nav-elements li a{
     color:#903118;
     font-family: 'karma', sans-serif;
     font-weight: 500;
     font-size: larger;
 }
 
-#nav-elements li a:hover{
+.nav-elements li a:hover{
     color: #800707;
     box-shadow: 1 1 1px #b57324;
     text-shadow: 0 0 5px #b57324;
@@ -350,10 +350,14 @@ footer > a {
  /* For small screen sizes from 750px wide and down */
  @media screen and (max-width: 750px) {
 
-/* conatc.html page */    
-    #contact-page, #contact-container {
-        width: 22.875rem;
-        height: fit-content;
+    /* index.html page */
+
+
+       
+    /* conatc.html page */    
+        #contact-page, #contact-container {
+            width: 22.875rem;
+            height: fit-content;
     }
 
     #contact-image {
@@ -397,6 +401,28 @@ footer > a {
  
  /* For very small screen sizes from 450px wide and down */
  @media screen and (max-width: 450px) {
+    /* index.html page */
+
+    .logo{
+        font-size: 236%;
+        margin-left: 25px;
+        margin-bottom: -3.5rem;
+
+    } 
+
+    .nav-elements {
+        float: inline-end;
+        margin-top: 63px;
+        margin-right: 72px;
+    }
+
+    .Image1, .Image2, .Image3 {
+    
+        padding: 0%;
+        margin: 35px 2% 10px 0;   
+    }
+
+
     #contact-panel-left,
     #contact-panel-right {
        width: 15.75rem;
