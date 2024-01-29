@@ -201,8 +201,11 @@ How is information logically grouped on the site
 - ## Technologies Used
 ------------
 + Languages
+	* HTML5
+	* CSS3
+	* Javascript (not by the student but code embedded in libraries used)
 + Frameworks
-
+	* [!Cdnfonts][Cdnfonts]
 - ## Testing
 ------------
 + Validating Testing
@@ -246,3 +249,4 @@ How is information logically grouped on the site
 
 
 [def]: ./documentation/Scrnshot.png
+[Cdnfonts]: https://www.cdnfonts.com/samarkan.font
