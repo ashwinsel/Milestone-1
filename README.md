@@ -3,7 +3,7 @@
 ------------
 [View Live Project Here](https://ashwinsel.github.io/Milestone-1/ "View Live Project Here")
 
-As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. I have been mindful to keep it simple yet smart and accessible to audience of all ages and technical abilities.
+As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. 
 Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India. We are a social, non-political, community-driven organisation for all Marathi speaking population who are also residents of Wales. We are run by the members of our community coming together to celebrate our cultural traditions. This site is advertises the available benefits of being a memeber and the events organised by the Wales Marathi Society. This site targets first time visitors to feel excited about joining the society and partake in activities Organised which are promotes Marathi culture and also to returning users to be able to acess photographs from previous events and to find out about upcoming events.
 
 ![Screenshot](./documentation/Scrnshot.png)
@@ -15,17 +15,16 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 	* [User Stories](#user-stories)
 		- [First Time Visitor Goals](#first-time-visitor-goals)
 		- [Returning Visitor Goals](#returning-visitor-goals)
-		- [Frequent User Goals](#frequent-user-goals)
-		- [Organisation Goals](#organisation-goals)
+		- [Frequent User Goals][def2]		
 + [UX Planes](#ux-planes)
 	* [Strategy](#strategy)
 		- [Project Goals](#project-goals) 
 		- [Customer Goals](#customer-goals)
 		- [Company Goals](#company-goals)
-		- [Future Implementations](future-implementations)
+		- [Future Implementations][def3]
 	* [Scope](#scope)
 	* [Structure](#structure)
-	* [Skeleton](#skeleton)
+	* [Skeleton][#skeleton]
 		- How is information logically grouped on the site
 	* [Surface](#surface)
 		- [Colour Scheme](#colour-scheme)
@@ -67,7 +66,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 			- [F5.3 Footer](f53-footer)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
-	* [Frameworks, Libraries and Programs Used](#frameworks)
+	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 + [Testing](#testing)
 	* [Validator Testing](#validator-testing)
 		 - [HTML Validator](#html-validator)
@@ -92,7 +91,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 - ### User stories
 As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-- #### A. First Time Visitor Goals
+- #### First Time Visitor Goals
 	1. As a First Time Visitor, I want to feel at home and find cultural references to gain assurance of what the name of society promotes.
 	2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
 	3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
@@ -101,56 +100,62 @@ As a User from all different age groups and technical abilities I want the websi
 	6. As a First Time Visitor, I want to be able to see photographs of previous events organised.
 	7. As a First Time Visitor, I want to be able to join social media groups of the society easily.
 
--   #### B. Returning Visitor Goals
+-   #### Returning Visitor Goals
 	1. As a Returning Visitor, I want to be able to quickly access photographs of an event I attended.
 	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
 	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
--   #### C. Frequent User Goals
+-   #### Frequent User Goals
 	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
 	2. As a Frequent User, I want to be able to easily find out about upcoming events.
-
--   #### D. Organisation Goals
-	1. To have an online presence.
-	2. Is to increase membership and retain members and be able to market upcoming events.
-	3. Provide a point of contact for existing memebers and new users to post their queries and interest to the organisation.
-	4. Flaunt all event photographs.
-	5. In order to retain membership advertise upcoming events.
-	6. Increase our social media presence via social media links (Facebook and Instagram).
-
 ## UX Planes
 ------------
 - ### Strategy
-So strategy represents the business goals, the initial idea, why you want to build a product in the first place.
-+ Project Goals
+	* Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India.
+	* Keep it simple yet smart and accessible to audience of all ages and technical abilities.
++ #### Project Goals
 	* As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-+ Customer Goals
++ #### Customer Goals
 	* Being able to access all devices
-+ Company Goals
-	* asjdklasj
-+ Future Implementations
-	* Add a full detailed Visit Page.
-	* Use Javascript to close an FAQ if another is already open.
-	* Add FancyBox for images.
-	* Use Javascript to implement a thank you page redirect.
++ #### Company Goals
+	* To have an online presence.
+	* Is to increase membership and retain members and be able to market upcoming events.
+	* Provide a point of contact for existing memebers and new users to post their queries and interest to the organisation.
+	* Flaunt all event photographs.
+	* In order to retain membership advertise upcoming events.
+	* Increase our social media presence via social media links (Facebook and Instagram).
++ #### Future Implementations
+	* Add a full detailed membership link with options for payment.
+	* Add an option to register and pay for events.
+	* Add FAQ section under contacts.
+	* Add Javascript to add collapsible event categories on Gallery page.
+	* Use Javascript to implement a thank you page redirect and return values to an email address.
 	* Change Image formats to WebP.
 - ### Scope
-Feature included based on strategy (can/cannot achieve)
+	* Due to constraints of using HTML5 and CSS3 only ensuring to have a simple but accessible layout.
+	* The website to be static yet responsive to be available to be accessed on various devices.
+	* Continuity is maintained thourghout all pages for better user experience.
+	* Navigation links to be made available on all pages for ease.
+	* Ensure the website does not exceed more than 5 pages.
+	* Due to short time constraint ensure similar structure throughout all pages.
 - ### Structure
-How is information logically grouped on the site
+	* A default home-page that navigates all the pages and provides relevant information about the institution.
+	* Categorise pages based on the variety of content that is to be made available to users, as if it were a table of content.
+	* Ensure a portal is made available for contact to be made with the administration without having to open another mail agent.
+	* User experience to be paramount to outcomes.
 - ### Skeleton
-	Wireframes
+	+ #### Wireframes
 - ### Surface
-	+ Colour Scheme
+	+ #### Colour Scheme
 		* I have used a saffron/rufous palette which is consistent with the cultural representation of the website users and company.
 		* Black and red-orange font color plays a good contrast to the chosen colour palette.
 
 		![Colour Scheme](./documentation/Colorsch.png)
 
-	+ Typography
+	+ #### Typography
 		* The Samarkan font is representative of the Marathi Devnagri script therefore this font was chosen for the logo  text. As this was not available on Google Fonts library, Cdnfonts has been used to import Samarkan font into style.css.
 		* Google Fonts has been used to import Karma and Playfair fonts into style.css. These have been chosen as they are readable in all font weights and have a simple and modern feel. These fonts also match the mandala hero images used well due to their angled edges.
-	+ Imagery
+	+ #### Imagery
 		* The chosen Hero image for backgrounds all pages is consistent with the feel of an Indian origin society due to the Mandala patterns.
 		* These images have been chosen due to their large clear space of two-thirds area of the image while flaunting a Mandala design on one-third area. The clear space makes all the text aganist it readable while the Mandala design adds aesthetics.
 		* The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.
@@ -161,63 +166,63 @@ How is information logically grouped on the site
 ## Structure
 ------------
 - ### Home Page
-	+ Features
-		* F1.1 Navigation Bar
-		* F1.2 Landing Page
+	+ #### Features
+		* ##### F1.1 Navigation Bar
+		* ##### F1.2 Landing Page
 			+ Landing Page image and call to action		
 			+ Hero section with an image 
 			+ Each page displays the site Logo, with the page title below - it, for easy user navigation.
 			+ Below this, there is a call-to-action animated button to view more.
-		* F1.3 Information Cards
-		* F1.4 Footer
+		* ##### F1.3 Information Cards
+		* ##### F1.4 Footer
 - ### Events Page
-	+ Features
-		* F2.1 Navigation Bar
-		* F2.2 Event 1
-		* F2.3 Event 2
-		* F2.4 Footer
+	+ #### Features
+		* ##### F2.1 Navigation Bar
+		* ##### F2.2 Event 1
+		* ##### F2.3 Event 2
+		* ##### F2.4 Footer
 - ### Gallery Page
-	+ Features
-		* F3.1 Navigation Bar
-		* F3.2 Event Title
-		* F3.3 Photograph Grid
-		* F3.4 Event Title
-		* F3.5 Photograph Grid
-		* F3.6 Event Title
-		* F3.7 Photograph Grid
-		* F3.8 Footer
+	+ #### Features
+		* ##### F3.1 Navigation Bar
+		* ##### F3.2 Event Title
+		* ##### F3.3 Photograph Grid
+		* ##### F3.4 Event Title
+		* ##### F3.5 Photograph Grid
+		* ##### F3.6 Event Title
+		* ##### F3.7 Photograph Grid
+		* ##### F3.8 Footer
 - ### Contact Page
-	+ Features
-		* F4.1 Navigation Bar
-		* F4.2 Contact Form
-		* F4.3 Image
-		* F4.4 Footer
+	+ #### Features
+		* ##### F4.1 Navigation Bar
+		* ##### F4.2 Contact Form
+		* ##### F4.3 Image
+		* ##### F4.4 Footer
 - ### Thank You Page
-	+ Features
-		* F5.1 Navigation Bar
-		* F5.2 Confirmation Message
-		* F5.3 Footer
+	+ #### Features
+		* ##### F5.1 Navigation Bar
+		* ##### F5.2 Confirmation Message
+		* ##### F5.3 Footer
 
 - ## Technologies Used
 ------------
-+ Languages
-	* HTML5
-	* CSS3
-	* Javascript (not by the student but code embedded in libraries used)
-+ Frameworks
-	* [!Cdnfonts][Cdnfonts]
++ ### Languages
+	* #### HTML5
+	* #### CSS3
+	* #### Javascript (not by the student but code embedded in libraries used)
++ ### Frameworks, Libraries and Programs Used
+	* #### [!Cdnfonts][Cdnfonts]
 - ## Testing
 ------------
-+ Validating Testing
-	* HTML Validator
++ ### Validating Testing
+	* #### HTML Validator
 		- HTML Results index.html
 		- HTML Results events.html
 		- HTML Results gallery.html
 		- HTML Results contact.html
 		- HTML Results thankyou.html
-	* CSS Validator
+	* #### CSS Validator
 		- CSS Results
-	* Lighthouse Testing
+	* #### Lighthouse Testing
 		- Results
 		- Repairs to Optimize
 
@@ -243,10 +248,13 @@ How is information logically grouped on the site
 9.	Image by <a href="https://www.freepik.com/free-vector/hand-drawn-ganesh-chaturthi-poster-template-with-elephant_29807165.htm#query=ganpati%20invitation%202024&position=24&from_view=search&track=ais&uuid=5718f004-9a56-4164-ab5d-9edcdb669990">Freepik</a>
 10.	https://autoprefixer.github.io/
 11.	Bootstrap
--### Gratitude
+
+- ## Gratitude
 
 
 
 
 [def]: ./documentation/Scrnshot.png
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
+[def2]: #frequent-user-goals
+[def3]: future-implementations
