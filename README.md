@@ -93,7 +93,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 -   ### User stories
 As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-- #### A. First Time Visitor Goals
+- #### First Time Visitor Goals
 	1. As a First Time Visitor, I want to feel at home and find cultural references to gain assurance of what the name of society promotes.
 	2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
 	3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
@@ -102,16 +102,16 @@ As a User from all different age groups and technical abilities I want the websi
 	6. As a first-time visitor, I want to see photographs of previously organised events.
 	7. As a First Time Visitor, I want to be able to join social media groups of the society quickly.
 
-- #### B. Returning Visitor Goals
+- #### Returning Visitor Goals
 	1. As a Returning Visitor, I want to be able to access quickly photographs of an event I attended.
 	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
 	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
-- #### C. Frequent User Goals
+- #### Frequent User Goals
 	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
 	2. As a Frequent User, I want to be able to find out about easily upcoming events.
 
-- #### D. Organisation Goals
+- #### Organisation Goals
 	1. To have an online presence.
 	2. Is to increase membership and retain members and be able to market upcoming events.
 	3. Provide a point of contact for existing memebers and new users to post their queries and interest to the organisation.
