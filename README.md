@@ -3,10 +3,10 @@
 ------------
 [View Live Project Here](https://ashwinsel.github.io/Milestone-1/ "View Live Project Here")
 
-As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. I have been mindful to keep it simple yet smart and accessible to audience of all ages and technical abilities.
-Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India. We are a social, non-political, community-driven organisation for all Marathi speaking population who are also residents of Wales. We are run by the members of our community coming together to celebrate our cultural traditions. This site is advertises the available benefits of being a memeber and the events organised by the Wales Marathi Society. This site targets first time visitors to feel excited about joining the society and partake in activities organised which are promotes Marathi culture and also to returning users to be able to acess photographs from previous events and to find out about upcoming events.
+As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. I have been mindful to keep it simple yet intelligent and accessible to an audience of all ages and technical abilities.
+Wales Marathi Society is a site that serves as a point of contact for people residing in Wales from the Marathi-speaking community of India. We are a social, non-political, community-driven organisation for all Marathi-speaking populations who are also residents of Wales. We are run by the mefrom the Marathi-speaking community of India residing in Walesal traditions. This site is advertises the available benefits of being a member and the events organised by the Wales Marathi Society. This site targets first-time visitors to feel excited about joining the society and partake in Activities were organised to promote Marathi culture and allow returning users to access photographs from previous events and learn about upcoming events.
 
-[![Screenshot]("Screenshot")](file:///C:/Users/TAMAS.SZICK/Downloads/tinfied/Homepage%20Screenshot.png "Screenshot")
+(./documentation/Scrnshot.png)
 
 ## Index - Table of Contents
 ------------
@@ -93,34 +93,34 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 -   ### User stories
 As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-    -   #### A. First Time Visitor Goals
-		1. As a First Time Visitor, I want to feel at home and find cultural references to gain assurance of what the name of society promotes.
-		2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
-		3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
-		4. As a First Time Visitor, I want to be able to easily navigate through the website to access various pages and return to homepage.
-		5. As a First Time Visitor, I want to be able to put up my questions to the organisation to help me settle in foreign country far from home.
-		6. As a First Time Visitor, I want to be able to see photographs of previous events organised.
-		7. As a First Time Visitor, I want to be able to join social media groups of the society easily.
+- #### A. First Time Visitor Goals
+	1. As a First Time Visitor, I want to feel at home and find cultural references to gain assurance of what the name of society promotes.
+	2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
+	3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
+	4. As a First Time Visitor, I want to be able to easily navigate through the website to access various pages and return to the homepage.
+	5. As a First Time Visitor, I want to be able to put up my questions to the organisation to help me settle in a foreign country far from home.
+	6. As a first-time visitor, I want to see photographs of previously organised events.
+	7. As a First Time Visitor, I want to be able to join social media groups of the society quickly.
 
-    -   #### B. Returning Visitor Goals
-		1. As a Returning Visitor, I want to be able to quickly access photographs of an event I attended.
-		2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
-		3. As a Returning Visitor, I want to be able to keep track of upcoming events.
+- #### B. Returning Visitor Goals
+	1. As a Returning Visitor, I want to be able to access quickly photographs of an event I attended.
+	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
+	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
-    -   #### C. Frequent User Goals
-		1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
-		2. As a Frequent User, I want to be able to easily find out about upcoming events.
+- #### C. Frequent User Goals
+	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
+	2. As a Frequent User, I want to be able to find out about easily upcoming events.
 
-    -   #### D. Organisation Goals
-		1. To have an online presence.
-		2. Is to increase membership and retain members and be able to market upcoming events.
-		3. Provide a point of contact for existing memebers and new users to post their queries and interest to the organisation.
-		4. Flaunt all event photographs.
-		5. In order to retain membership advertise upcoming events.
-		6. Increase our social media presence via social media links (facebook and Instagram).
+- #### D. Organisation Goals
+	1. To have an online presence.
+	2. Is to increase membership and retain members and be able to market upcoming events.
+	3. Provide a point of contact for existing memebers and new users to post their queries and interest to the organisation.
+	4. Flaunt all event photographs.
+	5. In order to retain membership advertise upcoming events.
+	6. Increase our social media presence via social media links (Facebook and Instagram).
 
-Clean and clear. Easy to read fonts. The graphics are fast loading so the  image file sizes are too large.
-Good contrast between any background colors and font. Visible 
+Clean and clear. Easy to read fonts. The graphics are fast-loading, so the image file sizes are too large.
+There is a good contrast between any background colours and font. Visible 
 
  * Hero section with an image 
  Each page displays the site Logo, with the page title below it, for easy user navigation.
