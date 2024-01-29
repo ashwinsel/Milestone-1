@@ -6,7 +6,7 @@
 As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. I have been mindful to keep it simple yet intelligent and accessible to an audience of all ages and technical abilities.
 Wales Marathi Society is a site that serves as a point of contact for people residing in Wales from the Marathi-speaking community of India. We are a social, non-political, community-driven organisation for all Marathi-speaking populations who are also residents of Wales. We are run by the mefrom the Marathi-speaking community of India residing in Walesal traditions. This site is advertises the available benefits of being a member and the events organised by the Wales Marathi Society. This site targets first-time visitors to feel excited about joining the society and partake in Activities were organised to promote Marathi culture and allow returning users to access photographs from previous events and learn about upcoming events.
 
-(./documentation/Scrnshot.png)
+![Screen Shot][def]
 
 ## Index - Table of Contents
 ------------
@@ -234,3 +234,6 @@ Thank you
 
 
 
+
+
+[def]: ./documentation/Scrnshot.png
