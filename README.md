@@ -32,20 +32,20 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Typography](#typography)
 		- [Imagery](#imagery)
 + [Structure](#structure)
-	1. [Home Page](#home-page)
+	* [Home Page](#home-page)
 		- [Features](#home-page-features)
 			- [F1.1 Navigation Bar](f11-navigation-bar)
 			- [F1.2 Landing Page](f22-landing-page)
 			- [F1.3 Information Cards](f13-information-cards)
 			- [F1.4 Footer](f14-footer)
-	2. [Events Page](#events-page)
-		* [Features](#events-page-features)
+	* [Events Page](#events-page)
+		- [Features](#events-page-features)
 			- [F2.1 Navigation Bar](f21-navigation-bar)
 			- [F2.2 Event 1](f22-event-1)
 			- [F2.3 Event 2](f23-event-2)
 			- [F2.4 Footer](f24-footer)
-	3. [Gallery Page](#gallery-page)
-		* [Features](#gallery-page-features)
+	* [Gallery Page](#gallery-page)
+		-  [Features](#gallery-page-features)
 			- [F3.1 Navigation Bar](f31-navigation-bar)
 			- [F3.2 Event Title](f32-event-title)
 			- [F3.3 Photograph Grid](f33-photograph-grid)
@@ -54,14 +54,14 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 			- [F3.6 Event Title](f36-event-title)
 			- [F3.7 Photograph Grid](f37-photograph-grid)
 			- [F3.8 Footer](f38-footer)
-	4. [Contact Page](#contact-page)
-		* [Features](#contact-page-features)
+	* [Contact Page](#contact-page)
+		- [Features](#contact-page-features)
 			- [F4.1 Navigation Bar](f41-navigation-bar)
 			- [F4.2 Contact Form](f42-contact-form)
 			- [F4.3 Image](f43-image)
 			- [F4.4 Footer](f44-footer)
-	5. [Thank You Page](#thank-you-page)
-		* [Features](#thank-you-page-features)
+	* [Thank You Page](#thank-you-page)
+		- [Features](#thank-you-page-features)
 			- [F5.1 Navigation Bar](#f51-navigation-bar)
 			- [F5.2 Confirmation Message](f52-confirmation-message)
 			- [F5.3 Footer](f53-footer)
@@ -122,13 +122,13 @@ As a User from all different age groups and technical abilities I want the websi
 ------------
 - ### Strategy
 So strategy represents the business goals, the initial idea, why you want to build a product in the first place.
-1. Project Goals
++ Project Goals
 	* As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-2. Customer Goals
++ Customer Goals
 	* Being able to access all devices
-3. Company Goals
++ Company Goals
 	* asjdklasj
-4. Future Implementations
++ Future Implementations
 	* Add a full detailed Visit Page.
 	* Use Javascript to close an FAQ if another is already open.
 	* Add FancyBox for images.
@@ -141,22 +141,22 @@ How is information logically grouped on the site
 - ### Skeleton
 	Wireframes
 - ### Surface
-	* Colour Scheme
-		- I have used a saffron/rufous palette which is consistent with the cultural representation of the website users and company.
-		- Black and red-orange font color plays a good contrast to the chosen colour palette.
+	+ Colour Scheme
+		* I have used a saffron/rufous palette which is consistent with the cultural representation of the website users and company.
+		* Black and red-orange font color plays a good contrast to the chosen colour palette.
 
 		![Colour Scheme](./documentation/Colorsch.png)
 
-	* Typography
-		- The Samarkan font is representative of the Marathi Devnagri script therefore this font was chosen for the logo  text. As this was not available on Google Fonts library, Cdnfonts has been used to import Samarkan font into style.css.
-		- Google Fonts has been used to import Karma and Playfair fonts into style.css. These have been chosen as they are readable in all font weights and have a simple and modern feel. These fonts also match the mandala hero images used well due to their angled edges.
-	* Imagery
-		- The chosen Hero image for backgrounds all pages is consistent with the feel of an Indian origin society due to the Mandala patterns.
-		- These images have been chosen due to their large clear space of two-thirds area of the image while flaunting a Mandala design on one-third area. The clear space makes all the text aganist it readable while the Mandala design adds aesthetics.
-		- The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.
-		- The favicon was designed using an online favicon generator. This has been designed with a saffron background with the initials of the organisation 'WMS'
-		- All the images used are license free or been used with owners consent. The sources are listed in the Credits section.
-		- Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) therefore Shrink.media online tool was used to futher compress for better performance and user experience.
+	+ Typography
+		* The Samarkan font is representative of the Marathi Devnagri script therefore this font was chosen for the logo  text. As this was not available on Google Fonts library, Cdnfonts has been used to import Samarkan font into style.css.
+		* Google Fonts has been used to import Karma and Playfair fonts into style.css. These have been chosen as they are readable in all font weights and have a simple and modern feel. These fonts also match the mandala hero images used well due to their angled edges.
+	+ Imagery
+		* The chosen Hero image for backgrounds all pages is consistent with the feel of an Indian origin society due to the Mandala patterns.
+		* These images have been chosen due to their large clear space of two-thirds area of the image while flaunting a Mandala design on one-third area. The clear space makes all the text aganist it readable while the Mandala design adds aesthetics.
+		* The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.
+		* The favicon was designed using an online favicon generator. This has been designed with a saffron background with the initials of the organisation 'WMS'
+		* All the images used are license free or been used with owners consent. The sources are listed in the Credits section.
+		* Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) therefore Shrink.media online tool was used to futher compress for better performance and user experience.
 
 ## Structure
 ------------
@@ -164,10 +164,10 @@ How is information logically grouped on the site
 	+ Features
 		* F1.1 Navigation Bar
 		* F1.2 Landing Page
-			- Landing Page image and call to action		
-			- Hero section with an image 
-			- Each page displays the site Logo, with the page title below - it, for easy user navigation.
-			- Below this, there is a call-to-action animated button to view more.
+			+ Landing Page image and call to action		
+			+ Hero section with an image 
+			+ Each page displays the site Logo, with the page title below - it, for easy user navigation.
+			+ Below this, there is a call-to-action animated button to view more.
 		* F1.3 Information Cards
 		* F1.4 Footer
 - ### Events Page
