@@ -253,8 +253,33 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### CSS Validator
 		- CSS Results
 	* #### Lighthouse Testing
-		- Results
-		- Repairs to Optimize
+	At the first instance the results for performance were very low. Thereafter, on further analysis of it was identified that the image sizes were causing the issue therefore I used Shrink Media website to further compress the images used which resulted in better results.
+	Following are screen shots of Lighthouse analysis outcomes before repairs and after repairs
+	- ##### First Results 
+		+ ###### Home Page Result
+		 		![](./documentation/1lhhome.png)
+		+ ###### Events Page Result
+		 		(./documentation/1lhevent.png)	
+		+ ###### Gallery Page Result
+		 		(./documentation/1lhgallery.png)		 
+		+ ###### Contact Page Result
+		 		(./documentation/1lhcontact.png)		- 
+		+ ###### Thank You Page Result
+		 		(./documentation/1lhthankyou.png)
+	- ##### Results After Image Were Further Compressed
+		+ ###### Home Page Result
+		 		(./documentation/lhhomepage.png)
+		+ ###### Events Page Result
+		 		(./documentation/lheventpage.png)	
+		+ ###### Gallery Page Result
+		 		(./documentation/lhgallerypage.png)
+		###### Gallery Page Diagnostics to demonstrate the issue are images
+				(./documentary/lhgallerypage1.png)
+				(./documentary/lhgallerypage2.png) 
+		+ ###### Contact Page Result
+		 		(./documentation/lhcontactpage.png)		- 
+		+ ###### Thank You Page Result
+		 		(./documentation/lhthankyoupage.png)
 
 - ## Browser Compatibility
 ------------
