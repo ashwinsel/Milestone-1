@@ -256,20 +256,20 @@ As a User from all different age groups and technical abilities I want the websi
 	At the first instance the results for performance were very low. Thereafter, on further analysis of it was identified that the image sizes were causing the issue therefore I used Shrink Media website to further compress the images used which resulted in better results.
 	Following are screen shots of Lighthouse analysis outcomes before repairs and after repairs
 	- #### First Results 
-		+ [**Home Page Result**][def29]
-		+ [**Events Page Result**][def32]	
-		+ [**Gallery Page Result**][def31]		 
-		+ [**Contact Page Result**][def30]
-		+ [**Thank You Page Result**][def33]
+		+ ![**Home Page Result**][def29]
+		+ ![**Events Page Result**][def32]	
+		+ ![**Gallery Page Result**][def31]		 
+		+ ![**Contact Page Result**][def30]
+		+ ![**Thank You Page Result**][def33]
 	- ##### Results After Image Were Further Compressed
-		+ [**Home Page Result**][def35]
-		+ [**Events Page Result**][def34]	
-		+ [**Gallery Page Result**][def36]
+		+ ![**Home Page Result**][def35]
+		+ ![**Events Page Result**][def34]	
+		+ ![**Gallery Page Result**][def36]
 		**Gallery Page Diagnostics to demonstrate the issue are images**
-				[1][def37]
-				[2][def38] 
-		+ [**Contact Page Result**][def39]
-		+ [**Thank You Page Result**][def40]
+				[!1][def37]
+				[!2][def38] 
+		+ ![**Contact Page Result**][def39]
+		+ ![**Thank You Page Result**][def40]
 
 - ## Browser Compatibility
 ------------
