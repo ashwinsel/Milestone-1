@@ -6,7 +6,7 @@
 As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. 
 Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India. We are a social, non-political, community-driven organisation for all Marathi speaking population who are also residents of Wales. We are run by the members of our community coming together to celebrate our cultural traditions. This site is advertises the available benefits of being a memeber and the events organised by the Wales Marathi Society. This site targets first time visitors to feel excited about joining the society and partake in activities Organised which are promotes Marathi culture and also to returning users to be able to acess photographs from previous events and to find out about upcoming events.
 
-![Screenshot](./documentation/Screenshot.png)
+![Screenshot][def24]
 
 ## Index - Table of Contents
 ------------
@@ -175,7 +175,7 @@ As a User from all different age groups and technical abilities I want the websi
 
 ## Structure
 ------------
-- ### Home Page
+- ### ![Home Page][def24]
 	+ #### Features
 		* ##### F1.1 Navigation Bar
 		* ##### F1.2 Landing Page
@@ -185,13 +185,13 @@ As a User from all different age groups and technical abilities I want the websi
 			+ Below this, there is a call-to-action animated button to view more.
 		* ##### F1.3 Information Cards
 		* ##### F1.4 Footer
-- ### Events Page
+- ### ![Events Page][def25]
 	+ #### Features
 		* ##### F2.1 Navigation Bar
 		* ##### F2.2 Event 1
 		* ##### F2.3 Event 2
 		* ##### F2.4 Footer
-- ### Gallery Page
+- ### ![Gallery Page][def26]
 	+ #### Features
 		* ##### F3.1 Navigation Bar
 		* ##### F3.2 Event Title
@@ -201,13 +201,13 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F3.6 Event Title
 		* ##### F3.7 Photograph Grid
 		* ##### F3.8 Footer
-- ### Contact Page
+- ### ![Contact Page][def27]
 	+ #### Features
 		* ##### F4.1 Navigation Bar
 		* ##### F4.2 Contact Form
 		* ##### F4.3 Image
 		* ##### F4.4 Footer
-- ### Thank You Page
+- ### ![Thank You Page][def28]
 	+ #### Features
 		* ##### F5.1 Navigation Bar
 		* ##### F5.2 Confirmation Message
@@ -222,7 +222,7 @@ As a User from all different age groups and technical abilities I want the websi
 + ### Frameworks, Libraries and Programs Used
 	* #### [Cdnfonts][Cdnfonts] : was used to import Samarkan fonts into style.css file which has been used in the Main Logo title.
 	* #### [Font Awesome][def9] : was used to add icons for aesthetic and UX purposes. Icons have been used to for social media links which can be easily identified by users regarless of their English language level. Icons have also been used on events page to depict type of event.
-	* #### [Git][def10]: ##### was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+	* #### [Git][def10]: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
 	* #### [GitHub][def11] : It is used as the repository for the project's code after being pushed from Git.
 	* #### [Powerpoint][def12] : was used for resizing images and editing photos and screenshots for Readme. It is also used for designing flyers for event pages.
 	* #### [Balsamiq][def13] : was used to create the wireframes during the design process.
@@ -233,6 +233,8 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### [Autoprefixer CSS online][def18] : has been used to parse the CSS in style.css to add different browser prefixes to ensure the CSS works on all browsers.
 	* #### [favicon.io][def19] : was used to generate the favicon for the website.
 	* #### [W3C Markup Validation Service][def20] : has been used to validate the code on all pages and style.css.
+	* #### [UI.Dev][def22] : was used to generate Mockup Screenshots.
+	* #### [Free Formatter][def23] : was used to ensure proper indentation in the HTML and CSS codes.
 	
 - ## Testing
 ------------
@@ -299,3 +301,10 @@ As a User from all different age groups and technical abilities I want the websi
 [def19]: https://favicon.io/
 [def20]: https://validator.w3.org/
 [def21]: ./documentation/Homepagewireframe.png
+[def22]: https://ui.dev/amiresponsive?url=https://ashwinsel.github.io/Milestone-1/index.html
+[def23]: https://www.freeformatter.com/html-formatter.html
+[def24]: ./documentation/Screenshot.png
+[def25]: ./documentation/EventsScreenshot.png
+[def26]: ./documentation/GalleryScreenshot.png
+[def27]: ./documentation/ContactScreenshot.png
+[def28]: ./documentation/ThankyouScreenshot.png
