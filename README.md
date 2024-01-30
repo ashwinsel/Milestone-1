@@ -90,7 +90,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 - ### User stories
 As a User from all different age groups and technical abilities I want the website not to be complicted and too busy.
-- #### First Time Visitor Goals
+- #### A. First Time Visitor Goals
 	1. As a First Time Visitor, I want to feel at home and find cultural references to gain assurance of what the name of society promotes.
 	2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
 	3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
@@ -99,12 +99,12 @@ As a User from all different age groups and technical abilities I want the websi
 	6. As a First Time Visitor, I want to be able to see photographs of previous events organised.
 	7. As a First Time Visitor, I want to be able to join social media groups of the society easily.
 
--   #### Returning Visitor Goals
-	1. As a Returning Visitor, I want to be able to quickly access photographs of an event I attended.
+-   #### B. Returning Visitor Goals
+	1. As a returning visitor, I want to be able to access photographs of an event I attended.
 	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
 	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
--   #### Frequent User Goals
+-   #### C. Frequent User Goals
 	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
 	2. As a Frequent User, I want to be able to easily find out about upcoming events.
 ## **UX Planes**
@@ -175,9 +175,8 @@ As a User from all different age groups and technical abilities I want the websi
 		* The chosen Hero image for backgrounds all pages is consistent with the feel of an Indian origin society due to the Mandala patterns.
 		* These images have been chosen due to their large clear space of two-thirds area of the image while flaunting a Mandala design on one-third area. The clear space makes all the text aganist it readable while the Mandala design adds aesthetics.
 		![footerimage][def48]
-		* The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.
-		![favicon][def49]
-		* The favicon was designed using an online favicon generator. This has been designed with a saffron background with the initials of the organisation 'WMS'
+		* The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.		
+		* ![favicon][def49] The favicon was designed using an online favicon generator. This has been designed with a saffron background with the initials of the organisation 'WMS'
 		* All the images used are license free or been used with owners consent. The sources are listed in the Credits section.
 		* Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) Therefore Shrink.media online tool was used to futher compress for better performance and user experience.
 
@@ -294,24 +293,23 @@ As a User from all different age groups and technical abilities I want the websi
 ------------
 + ### Validating Testing
 	* #### HTML Validator
-		- HTML Results index.html
-		[HTML Results - index.html][def65]
+		- HTML Results index.html <br>
+		[HTML Full Results - index.html][def65]
 		![e][def71]
-		- HTML Results events.html
-		[HTML Results - events.html][def66]
+		- HTML Results events.html <br>
+		[HTML Full Results - events.html][def66]
 		![e][def72]
-		- HTML Results gallery.html
-		[HTML Results - gallery.html][def67]
+		- HTML Results gallery.html <br>
+		[HTML Full Results - gallery.html][def67]
 		![e][def73]
-		- HTML Results contact.html
-		[HTML Results - contact.html][def68]
+		- HTML Results contact.html <br>
+		[HTML Full Results - contact.html][def68]
 		![e][def71]
-		- HTML Results thankyou.html
-		[!HTML Results - thankyou.html][def69]
+		- HTML Results thankyou.html <br>
+		[HTML Full Results - thankyou.html][def69]
 		![e][def71]
 	* #### CSS Validator
-		- CSS Results
-		[!CSS Full Result][def70]
+		- CSS Results : [CSS Full Result][def70]
 		![e][def71]
 	* #### Lighthouse Testing
 	At the first instance the results for performance were very low. Thereafter, on further analysis of it was identified that the image sizes were causing the issue therefore I used Shrink Media website to further compress the images used which resulted in better results.
