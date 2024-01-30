@@ -175,7 +175,8 @@ As a User from all different age groups and technical abilities I want the websi
 
 ## Structure
 ------------
-- ### ![Home Page][def24]
+![Home Page][def24]
+- ### Home Page
 	+ #### Features
 		* ##### F1.1 Navigation Bar
 		* ##### F1.2 Landing Page
@@ -185,13 +186,15 @@ As a User from all different age groups and technical abilities I want the websi
 			+ Below this, there is a call-to-action animated button to view more.
 		* ##### F1.3 Information Cards
 		* ##### F1.4 Footer
-- ### ![Events Page][def25]
+![Events Page][def25]
+- ### Events Page
 	+ #### Features
 		* ##### F2.1 Navigation Bar
 		* ##### F2.2 Event 1
 		* ##### F2.3 Event 2
 		* ##### F2.4 Footer
-- ### ![Gallery Page][def26]
+![Gallery Page][def26]
+- ### Gallery Page
 	+ #### Features
 		* ##### F3.1 Navigation Bar
 		* ##### F3.2 Event Title
@@ -201,13 +204,15 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F3.6 Event Title
 		* ##### F3.7 Photograph Grid
 		* ##### F3.8 Footer
-- ### ![Contact Page][def27]
+### ![Contact Page][def27]
+- ### Contact Page
 	+ #### Features
 		* ##### F4.1 Navigation Bar
 		* ##### F4.2 Contact Form
 		* ##### F4.3 Image
 		* ##### F4.4 Footer
-- ### ![Thank You Page][def28]
+### ![Thank You Page][def28]
+- ### Thank you Page
 	+ #### Features
 		* ##### F5.1 Navigation Bar
 		* ##### F5.2 Confirmation Message
