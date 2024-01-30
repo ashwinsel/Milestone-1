@@ -29,7 +29,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Colour Scheme](#colour-scheme)
 		- [Typography](#typography)
 		- [Imagery](#imagery)
-+ [Structure](#structure)
++ [Structure and Features](#structure)
 	* [Home Page](#home-page)
 		- [Features](#home-page-features)
 			- [F1.1 Navigation Bar](f11-navigation-bar)
@@ -63,6 +63,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 			- [F5.1 Navigation Bar](#f51-navigation-bar)
 			- [F5.2 Confirmation Message](#f52-confirmation-message)
 			- [F5.3 Footer](#f53-footer)
+	* [How These Features Support the User Stories](#how-these-features-support-the-user-stories)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
 	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -240,6 +241,7 @@ As a User from all different age groups and technical abilities I want the websi
 			- 
 			![F3.7][def60]
 		* ##### F3.8 Footer
+			- Repeats the same on all pages for consistency in UX.
 ![Contact Page][def27]
 - ### Contact Page
 	+ #### Features
@@ -265,6 +267,11 @@ As a User from all different age groups and technical abilities I want the websi
 			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
 		* ##### F5.3 Footer
 			- Repeats the same on all pages for consistency in UX.
+- ### How these features support the User Stories
+		
+			  |                       User Story Reference                          |
+| 			  | Ai| Aii | Aiii | Aiv | Av | Avi | Avii | Bi | Bii | Biii | Ci | Cii |
+| Paragraph   | t | X |
 
 - ## **Technologies Used**
 ------------
