@@ -1,14 +1,14 @@
 # Wales Marathi Society Website
 ###### Code Institute / User-Centric Front-End Development / Milestone Project 1
 ------------
-[View Live Project Here](https://ashwinsel.github.io/Milestone-1/ "View Live Project Here")
+[View Live Project Here][def42]
 
 As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. 
 Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India. We are a social, non-political, community-driven organisation for all Marathi speaking population who are also residents of Wales. We are run by the members of our community coming together to celebrate our cultural traditions. This site is advertises the available benefits of being a memeber and the events organised by the Wales Marathi Society. This site targets first time visitors to feel excited about joining the society and partake in activities Organised which are promotes Marathi culture and also to returning users to be able to acess photographs from previous events and to find out about upcoming events.
 
 ![Screenshot][def24]
 
-## Index - Table of Contents
+## **Index - Table of Contents**
 ------------
 
 + [User Experience (UX)](#-user-experience-ux)
@@ -24,8 +24,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Future Implementations][def3]
 	* [Scope](#scope)
 	* [Structure](#structure)
-	* [Skeleton](#skeleton)
-		- How is information logically grouped on the site
+	* [Skeleton](#skeleton)		
 	* [Surface](#surface)
 		- [Colour Scheme](#colour-scheme)
 		- [Typography](#typography)
@@ -62,21 +61,21 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 	* [Thank You Page](#thank-you-page)
 		- [Features](#thank-you-page-features)
 			- [F5.1 Navigation Bar](#f51-navigation-bar)
-			- [F5.2 Confirmation Message](f52-confirmation-message)
-			- [F5.3 Footer](f53-footer)
+			- [F5.2 Confirmation Message](#f52-confirmation-message)
+			- [F5.3 Footer](#f53-footer)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
 	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 + [Testing](#testing)
 	* [Validator Testing](#validator-testing)
 		 - [HTML Validator](#html-validator)
-		 	- [HTML Results index.html](#html-results-indexhtml)
+			- [HTML Results index.html](#html-results-indexhtml)
 			- [HTML Results events.html](#html-results-eventshtml)
 			- [HTML Results gallery.html](#html-results-galleryhtml)
 			- [HTML Results contact.html](#html-results-contacthtml)
 			- [HTML thankyou.html](#html-results-thankyouhtml)
 		 - [CSS Validator](#css-validator)
-		 	- [CSS Results](#css-results)
+			- [CSS Results](#css-results)
 	* [Lighthouse Testing](#lighthouse-testing)
 		- [Results](#results)
 		- [Repairs to Optimize](#repairs-to-optimize)
@@ -86,7 +85,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 + [Credits](#credits)
 + [Gratitude](#gratitude)
 
-## User Experience (UX)
+## **User Experience (UX)**
 ------------
 
 - ### User stories
@@ -108,9 +107,9 @@ As a User from all different age groups and technical abilities I want the websi
 -   #### Frequent User Goals
 	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
 	2. As a Frequent User, I want to be able to easily find out about upcoming events.
-## UX Planes
+## **UX Planes**
 ------------
-- ### Strategy
+- ### **Strategy**
 	* Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India.
 	* Keep it simple yet smart and accessible to audience of all ages and technical abilities.
 + #### Project Goals
@@ -128,11 +127,12 @@ As a User from all different age groups and technical abilities I want the websi
 	* Add a full detailed membership link with options for payment.
 	* Add an option to register and pay for events.
 	* Add FAQ section under contacts.
-	* Add Javascript to add collapsible event categories on Gallery page.
+	* Add Javascript to add collapsible event categories on the Gallery page.
 	* Use Javascript to implement a thank you page redirect and return values to an email address.
 	* Change Image formats to WebP.
+	* Better understand image formats so the pages load quicker and Lighthouse results are most optimised.
 - ### Scope
-	* Due to constraints of using HTML5 and CSS3 only ensuring to have a simple but accessible layout.
+	* Due to constraints of using HTML5 and CSS3, only ensure a simple but accessible layout.
 	* The website to be static yet responsive to be available to be accessed on various devices.
 	* Continuity is maintained thourghout all pages for better user experience.
 	* Navigation links to be made available on all pages for ease.
@@ -160,65 +160,114 @@ As a User from all different age groups and technical abilities I want the websi
 		* I have used a saffron/rufous palette which is consistent with the cultural representation of the website users and company.
 		* Black and red-orange font color plays a good contrast to the chosen colour palette.
 
-		![Colour Scheme](./documentation/Colorsch.png)
+		![Colour Scheme][def]
 
 	+ #### Typography
 		* The Samarkan font is representative of the Marathi Devnagri script therefore this font was chosen for the logo  text. As this was not available on Google Fonts library, Cdnfonts has been used to import Samarkan font into style.css.
+		![samarkan][def43]
 		* Google Fonts has been used to import Karma and Playfair fonts into style.css. These have been chosen as they are readable in all font weights and have a simple and modern feel. These fonts also match the mandala hero images used well due to their angled edges.
+		**Karma**
+		![karma][def45]
+		**Playfair**
+		![playfair][def44]
 	+ #### Imagery
+		![heroimage][def46]
 		* The chosen Hero image for backgrounds all pages is consistent with the feel of an Indian origin society due to the Mandala patterns.
 		* These images have been chosen due to their large clear space of two-thirds area of the image while flaunting a Mandala design on one-third area. The clear space makes all the text aganist it readable while the Mandala design adds aesthetics.
+		![footerimage][def48]
 		* The Image chosen for footer has a skyline of Mumbai, which is the capital city of Maharashtra. This skyline is set on a saffron background which is consistent to the colour scheme.
+		![favicon][def49]
 		* The favicon was designed using an online favicon generator. This has been designed with a saffron background with the initials of the organisation 'WMS'
 		* All the images used are license free or been used with owners consent. The sources are listed in the Credits section.
-		* Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) therefore Shrink.media online tool was used to futher compress for better performance and user experience.
+		* Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) Therefore Shrink.media online tool was used to futher compress for better performance and user experience.
 
-## Structure
+## **Structure**
 ------------
 ![Home Page][def24]
 - ### Home Page
 	+ #### Features
 		* ##### F1.1 Navigation Bar
+			- The navigation....
+			![F1.1][def41]
 		* ##### F1.2 Landing Page
-			+ Landing Page image and call to action		
-			+ Hero section with an image 
-			+ Each page displays the site Logo, with the page title below - it, for easy user navigation.
-			+ Below this, there is a call-to-action animated button to view more.
+			- Landing Page image and call to action		
+			- Hero section with an image 
+			- Each page displays the site Logo, with the page title below - it is for easy user navigation.
+			- Below this, there is an animated call-to-action button to view more.
+			![F1.2][def47]
 		* ##### F1.3 Information Cards
+			- 
+			- 
+			![F1.3][def50]
+			![F1.3.][def51]
+			![F1.3responsive][def54]
 		* ##### F1.4 Footer
+			- 
+			![F1.4][def53]
 ![Events Page][def25]
 - ### Events Page
 	+ #### Features
 		* ##### F2.1 Navigation Bar
+			- Repeats the same on all pages for consistency in UX.
 		* ##### F2.2 Event 1
+			- 
+			![F2.2][def52]
 		* ##### F2.3 Event 2
+			- 
+			![F2.3][def55]
 		* ##### F2.4 Footer
+			- Repeats the same on all pages for consistency in UX.
 ![Gallery Page][def26]
 - ### Gallery Page
 	+ #### Features
 		* ##### F3.1 Navigation Bar
+			- Repeats the same on all pages for consistency in UX.
 		* ##### F3.2 Event Title
+			- 
+			![F3.2][def56]
 		* ##### F3.3 Photograph Grid
+			- 
+			![F3.3][def57]
 		* ##### F3.4 Event Title
+			- 
+			![F3.4][def58]
 		* ##### F3.5 Photograph Grid
+			- 
+			![F3.5][def59]
 		* ##### F3.6 Event Title
+			- 
+			![F3.6][def61]
 		* ##### F3.7 Photograph Grid
+			- 
+			![F3.7][def60]
 		* ##### F3.8 Footer
-### ![Contact Page][def27]
+![Contact Page][def27]
 - ### Contact Page
 	+ #### Features
 		* ##### F4.1 Navigation Bar
-		* ##### F4.2 Contact Form
+			- Repeats the same on all pages for consistency in UX.
+		* ##### F4.2 Contact Form Call-out
+			- 
+			![F4.2][def62]
 		* ##### F4.3 Image
+			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
+			![F4.3][def63]
 		* ##### F4.4 Footer
-### ![Thank You Page][def28]
+			- Repeats the same on all pages for consistency in UX.
+![Thank You Page][def28]
 - ### Thank you Page
 	+ #### Features
 		* ##### F5.1 Navigation Bar
+			- Repeats the same on all pages for consistency in UX.
 		* ##### F5.2 Confirmation Message
+			- 
+			![F5.2][def64]
+		* ##### F5.3 Image
+			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
 		* ##### F5.3 Footer
+			- Repeats the same on all pages for consistency in UX.
 
-- ## Technologies Used
+- ## **Technologies Used**
 ------------
 + ### Languages
 	* #### HTML5
@@ -241,17 +290,29 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### [UI.Dev][def22] : was used to generate Mockup Screenshots.
 	* #### [Free Formatter][def23] : was used to ensure proper indentation in the HTML and CSS codes.
 	
-- ## Testing
+- ## **Testing**
 ------------
 + ### Validating Testing
 	* #### HTML Validator
 		- HTML Results index.html
+		[HTML Results - index.html][def65]
+		![e][def71]
 		- HTML Results events.html
+		[HTML Results - events.html][def66]
+		![e][def72]
 		- HTML Results gallery.html
+		[HTML Results - gallery.html][def67]
+		![e][def73]
 		- HTML Results contact.html
+		[HTML Results - contact.html][def68]
+		![e][def71]
 		- HTML Results thankyou.html
+		[!HTML Results - thankyou.html][def69]
+		![e][def71]
 	* #### CSS Validator
 		- CSS Results
+		[!CSS Full Result][def70]
+		![e][def71]
 	* #### Lighthouse Testing
 	At the first instance the results for performance were very low. Thereafter, on further analysis of it was identified that the image sizes were causing the issue therefore I used Shrink Media website to further compress the images used which resulted in better results.
 	Following are screen shots of Lighthouse analysis outcomes before repairs and after repairs
@@ -266,7 +327,7 @@ As a User from all different age groups and technical abilities I want the websi
 		![**Contact Page Result**][def30]
 		+ **Thank You Page Result**
 		![**Thank You Page Result**][def33]
-	- ##### Results After Image Were Further Compressed
+	- #### Results After Image Were Further Compressed
 		+ **Home Page Result**
 		![**Home Page Result**][def35]
 		+ **Events Page Result**
@@ -309,15 +370,14 @@ As a User from all different age groups and technical abilities I want the websi
 
 
 
-[def]: ./documentation/Scrnshot.png
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
 [def2]: #frequent-user-goals
 [def3]: future-implementations
-[def4]: ./documentation/Homepagewireframe.png
-[def5]: ./documentation/Eventspagewireframe.png
-[def6]: ./documentation/Gallerypagewireframe.png
-[def7]: ./documentation/Contactpagewireframe.png
-[def8]: ./documentation/Thankyoupagewireframe.png
+[def4]: ./documentation/homepagewireframe.png
+[def5]: ./documentation/eventspagewireframe.png
+[def6]: ./documentation/gallerypagewireframe.png
+[def7]: ./documentation/contactpagewireframe.png
+[def8]: ./documentation/thankyoupagewireframe.png
 [def9]: https://fontawesome.com/
 [def10]: https://ashwinsel-milestone1-shxwdq7nqt6.ws-eu107.gitpod.io/
 [def11]: https://github.com/ashwinsel/Milestone-1.git
@@ -330,14 +390,14 @@ As a User from all different age groups and technical abilities I want the websi
 [def18]: https://autoprefixer.github.io/
 [def19]: https://favicon.io/
 [def20]: https://validator.w3.org/
-[def21]: ./documentation/Homepagewireframe.png
+[def21]: ./documentation/homepagewireframe.png
 [def22]: https://ui.dev/amiresponsive?url=https://ashwinsel.github.io/Milestone-1/index.html
 [def23]: https://www.freeformatter.com/html-formatter.html
-[def24]: ./documentation/Screenshot.png
-[def25]: ./documentation/EventsScreenshot.png
-[def26]: ./documentation/GalleryScreenshot.png
-[def27]: ./documentation/ContactScreenshot.png
-[def28]: ./documentation/ThankyouScreenshot.png
+[def24]: ./documentation/screenshot.png
+[def25]: ./documentation/eventsscreenshot.png
+[def26]: ./documentation/galleryscreenshot.png
+[def27]: ./documentation/contactscreenshot.png
+[def28]: ./documentation/thankyouscreenshot.png
 [def29]: ./documentation/1lhhome.png
 [def30]: ./documentation/1lhcontact.png
 [def31]: ./documentation/1lhgallery.png
@@ -350,3 +410,37 @@ As a User from all different age groups and technical abilities I want the websi
 [def38]: ./documentary/lhgallerypage2.png
 [def39]: ./documentation/lhcontactpage.png
 [def40]: ./documentation/lhthankyoupage.png
+[def41]: ./documentation/thankyouscreenshot.png
+[def]: ./documentation/colorsch.png
+[def42]: https://ashwinsel.github.io/Milestone-1/ "View Live Project Here"
+[def43]: ./documentation/samarkan.png
+[def44]: ./documentation/playfair.png
+[def45]: ./documentation/karma.png
+[def46]: ./assets/images/heroimg3.jpg
+[def47]: (./documentation/heroimgcallout.pn
+[def48]: ./assets/images/footer.jpg
+[def49]: ./assets/images/favicon.png
+[def50]: ./documentation/cards.png
+[def51]: ./documentation/homefeat.png
+[def52]: ./documentation/events1.png
+[def53]: ./documentation/footerss.png
+[def54]: ./documentation/homefeat1.png
+[def55]: ./documentation/events2.png
+[def56]: ./documentation/eventtitle1.png
+[def57]: ./documentation/photogrid1.png
+[def58]: ./documentation/eventtitle2.png
+[def59]: ./documentation/photogrid2.png
+[def60]: ./documentation/photogrid3.png
+[def61]: ./documentation/eventtitle3.png
+[def62]: ./documentation/contactcallout.png
+[def63]: ./documentation/himage2.png
+[def64]: ./documentation/thankyoucallout.png
+[def65]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def66]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def67]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def68]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def69]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def70]: https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fashwinsel.github.io%2FMilestone-1%2F#textarea
+[def71]: ./documentation/homevalresult.jpg
+[def72]: ./documentation/eventvalresult.png
+[def73]: ./documentation/galleryvalresult.png
