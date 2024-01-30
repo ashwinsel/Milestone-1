@@ -6,7 +6,7 @@
 As a part of Milestone Project 1 to demonstrate an understanding of user-centric Front-End Development, I have designed and deployed this website for a local public group for the Marathi Society residing in Wales. 
 Wales Marathi Society is a site that serves as a point of contact for people residing wales from Marathi speaking community of India. We are a social, non-political, community-driven organisation for all Marathi speaking population who are also residents of Wales. We are run by the members of our community coming together to celebrate our cultural traditions. This site is advertises the available benefits of being a memeber and the events organised by the Wales Marathi Society. This site targets first time visitors to feel excited about joining the society and partake in activities Organised which are promotes Marathi culture and also to returning users to be able to acess photographs from previous events and to find out about upcoming events.
 
-![Screenshot](./documentation/Scrnshot.png)
+![Screenshot](./documentation/Screenshot.png)
 
 ## Index - Table of Contents
 ------------
@@ -145,6 +145,16 @@ As a User from all different age groups and technical abilities I want the websi
 	* User experience to be paramount to outcomes.
 - ### Skeleton
 	+ #### Wireframes
+		* ##### Home Page Wireframes
+			[!Home Page Wireframe][def4]
+		* ##### Events Page Wireframe
+			[!Events Page Wireframe][def5]
+		* ##### Gallery Page Wireframe
+			[!Gallery Page Wireframe][def6]
+		* ##### Contact Page Wireframe
+			[!Contact Page Wireframe][def7]
+		* ##### Thank You Page Wireframe
+			[!Thank You Page Wireframe][def8]				
 - ### Surface
 	+ #### Colour Scheme
 		* I have used a saffron/rufous palette which is consistent with the cultural representation of the website users and company.
@@ -258,3 +268,8 @@ As a User from all different age groups and technical abilities I want the websi
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
 [def2]: #frequent-user-goals
 [def3]: future-implementations
+[def4]: ./documentation/Homepagewireframe.png
+[def5]: ./documentation/Eventspagewireframe.png
+[def6]: ./documentation/Gallerypagewireframe.png
+[def7]: ./documentation/Contactpagewireframe.png
+[def8]: ./documentation/Thankyoupagewireframe.png
