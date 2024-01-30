@@ -24,7 +24,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Future Implementations][def3]
 	* [Scope](#scope)
 	* [Structure](#structure)
-	* [Skeleton][#skeleton]
+	* [Skeleton](#skeleton)
 		- How is information logically grouped on the site
 	* [Surface](#surface)
 		- [Colour Scheme](#colour-scheme)
@@ -220,7 +220,34 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### CSS3
 	* #### Javascript (not by the student but code embedded in libraries used)
 + ### Frameworks, Libraries and Programs Used
-	* #### [!Cdnfonts][Cdnfonts]
+	* #### [!Cdnfonts][Cdnfonts]: 
+	was used to import Samarkan fonts into style.css file which has been used in the Main Logo title.
+	* #### [!Font Awesome][def9]: 
+	was used to add icons for aesthetic and UX purposes. Icons have been used to for social media links which can be easily identified by users regarless of their English language level. Icons have also been used on events page to depict type of event.
+	* #### [!Git][def10]:
+	was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+	* #### [!GitHub][def11]:
+	It is used as the repository for the project's code after being pushed from Git.
+	* #### [!Powerpoint][def12]:
+	was used for resizing images and editing photos and screenshots for Readme. It is also used for designing flyers for event pages.
+	* #### [!Balsamiq][def13]:
+	was used to create the wireframes during the design process.
+	* #### [!Coolors][def14]:
+	was used to find complimenting colors to saffron for the website color palette.
+	* #### [!TinyPng][def15]:
+	was used to compress the images that are used in the website, especially on the gallery page.
+	* #### [!ShrinkMedia by PixelBin.io][def16]:
+	has been used to compress further and resize the images used on the website.
+	* #### [Bootstrap][def17]:
+	codes from Bootsrap grid html and Css library has been used in the events.html page to align the coontent in columns and rows.
+	* #### [Autoprefixer CSS online][def18]:
+	has been used to parse the CSS in style.css to add different browser prefixes to ensure the CSS works on all browsers.
+	* #### [favicon.io][def19]:
+	was used to generate the favicon for the website.
+	* #### [W3C Markup Validation Service][def20]:
+	has been used to validate the code on all pages and style.css.
+	
+
 - ## Testing
 ------------
 + ### Validating Testing
@@ -250,7 +277,7 @@ As a User from all different age groups and technical abilities I want the websi
 1.	https://depositphotos.com/free-files/india.html?sorting=newest&sh=a6d15b82025110fdce3b9fec501449f76b4e05ec
 2.	https://codepen.io/wikyware-net/pen/abwVORa
 3.	https://www.vecteezy.com/vector-art/1178887-orange-mandala-background
-4.	https://coolors.co/ffae03-e67f0d-fe4e00-e9190f-ff0f80
+
 5.	https://tinypng.com/
 6.	https://www.w3schools.com/cssref/sel_hover.php
 7.	https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
@@ -273,3 +300,15 @@ As a User from all different age groups and technical abilities I want the websi
 [def6]: ./documentation/Gallerypagewireframe.png
 [def7]: ./documentation/Contactpagewireframe.png
 [def8]: ./documentation/Thankyoupagewireframe.png
+[def9]: https://fontawesome.com/
+[def10]: https://ashwinsel-milestone1-shxwdq7nqt6.ws-eu107.gitpod.io/
+[def11]: https://github.com/ashwinsel/Milestone-1.git
+[def12]: https://www.microsoft.com/en-gb/microsoft-365/powerpoint
+[def13]: https://balsamiq.com/
+[def14]: https://coolors.co/
+[def15]: https://tinypng.com/
+[def16]: https://www.shrink.media/upload
+[def17]: https://getbootstrap.com/
+[def18]: https://autoprefixer.github.io/
+[def19]: https://favicon.io/
+[def20]: https://validator.w3.org/
