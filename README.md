@@ -255,31 +255,21 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### Lighthouse Testing
 	At the first instance the results for performance were very low. Thereafter, on further analysis of it was identified that the image sizes were causing the issue therefore I used Shrink Media website to further compress the images used which resulted in better results.
 	Following are screen shots of Lighthouse analysis outcomes before repairs and after repairs
-	- ##### First Results 
-		+ ###### Home Page Result
-		 		![](./documentation/1lhhome.png)
-		+ ###### Events Page Result
-		 		(./documentation/1lhevent.png)	
-		+ ###### Gallery Page Result
-		 		(./documentation/1lhgallery.png)		 
-		+ ###### Contact Page Result
-		 		(./documentation/1lhcontact.png)		- 
-		+ ###### Thank You Page Result
-		 		(./documentation/1lhthankyou.png)
+	- #### First Results 
+		+ [!**Home Page Result**][def29]
+		+ [!**Events Page Result**][def32]	
+		+ [!**Gallery Page Result**][def31]		 
+		+ [!**Contact Page Result**][def30]
+		+ [!**Thank You Page Result**][def33]
 	- ##### Results After Image Were Further Compressed
-		+ ###### Home Page Result
-		 		(./documentation/lhhomepage.png)
-		+ ###### Events Page Result
-		 		(./documentation/lheventpage.png)	
-		+ ###### Gallery Page Result
-		 		(./documentation/lhgallerypage.png)
-		###### Gallery Page Diagnostics to demonstrate the issue are images
-				(./documentary/lhgallerypage1.png)
-				(./documentary/lhgallerypage2.png) 
-		+ ###### Contact Page Result
-		 		(./documentation/lhcontactpage.png)		- 
-		+ ###### Thank You Page Result
-		 		(./documentation/lhthankyoupage.png)
+		+ [!**Home Page Result**][def35]
+		+ [!**Events Page Result**][def34]	
+		+ [!**Gallery Page Result**][def36]
+		**Gallery Page Diagnostics to demonstrate the issue are images**
+				[!1][def37]
+				[!2][def38] 
+		+ [!**Contact Page Result**][def39]
+		+ [!**Thank You Page Result**][def40]
 
 - ## Browser Compatibility
 ------------
@@ -338,3 +328,15 @@ As a User from all different age groups and technical abilities I want the websi
 [def26]: ./documentation/GalleryScreenshot.png
 [def27]: ./documentation/ContactScreenshot.png
 [def28]: ./documentation/ThankyouScreenshot.png
+[def29]: ./documentation/1lhhome.png
+[def30]: ./documentation/1lhcontact.png
+[def31]: ./documentation/1lhgallery.png
+[def32]: ./documentation/1lhevent.png
+[def33]: ./documentation/1lhthankyou.png
+[def34]: ./documentation/lheventpage.png
+[def35]: ./documentation/lhhomepage.png
+[def36]: ./documentation/lhgallerypage.png
+[def37]: ./documentary/lhgallerypage1.png
+[def38]: ./documentary/lhgallerypage2.png
+[def39]: ./documentation/lhcontactpage.png
+[def40]: ./documentation/lhthankyoupage.png
