@@ -146,13 +146,13 @@ As a User from all different age groups and technical abilities I want the websi
 - ### Skeleton
 	+ #### Wireframes
 		* ##### Home Page Wireframes
-			![Home Page Wireframe][def21]
+			![Home Page Wireframe][def4]
 		* ##### Events Page Wireframe
-			![Events Page Wireframe](./documentation/Eventspagewireframe.png)
+			![Events Page Wireframe][def5]
 		* ##### Gallery Page Wireframe
-			![Gallery Page Wireframe](./documentation/Gallerypagewireframe.png)
+			![Gallery Page Wireframe][def6]
 		* ##### Contact Page Wireframe
-			![Contact Page Wireframe](./documentation/Contactpagewireframe.png)
+			![Contact Page Wireframe][def7]
 		* ##### Thank You Page Wireframe
 			![Thank You Page Wireframe][def8]				
 - ### Surface
@@ -220,19 +220,19 @@ As a User from all different age groups and technical abilities I want the websi
 	* #### CSS3
 	* #### Javascript (not by the student but code embedded in libraries used)
 + ### Frameworks, Libraries and Programs Used
-	* #### [Cdnfonts][Cdnfonts] : ##### was used to import Samarkan fonts into style.css file which has been used in the Main Logo title.
-	* #### [Font Awesome][def9] : ##### was used to add icons for aesthetic and UX purposes. Icons have been used to for social media links which can be easily identified by users regarless of their English language level. Icons have also been used on events page to depict type of event.
+	* #### [Cdnfonts][Cdnfonts] : was used to import Samarkan fonts into style.css file which has been used in the Main Logo title.
+	* #### [Font Awesome][def9] : was used to add icons for aesthetic and UX purposes. Icons have been used to for social media links which can be easily identified by users regarless of their English language level. Icons have also been used on events page to depict type of event.
 	* #### [Git][def10]: ##### was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
-	* #### [GitHub][def11] : ##### It is used as the repository for the project's code after being pushed from Git.
-	* #### [Powerpoint][def12] : ##### was used for resizing images and editing photos and screenshots for Readme. It is also used for designing flyers for event pages.
-	* #### [Balsamiq][def13] : ##### was used to create the wireframes during the design process.
-	* #### [Coolors][def14] : ##### was used to find complimenting colors to saffron for the website color palette.
-	* #### [TinyPng][def15] : ##### was used to compress the images that are used in the website, especially on the gallery page.
-	* #### [ShrinkMedia by PixelBin.io][def16] : ##### has been used to compress further and resize the images used on the website.
-	* #### [Bootstrap][def17] : ##### codes from Bootsrap grid html and Css library has been used in the events.html page to align the coontent in columns and rows.
-	* #### [Autoprefixer CSS online][def18] : ##### has been used to parse the CSS in style.css to add different browser prefixes to ensure the CSS works on all browsers.
-	* #### [favicon.io][def19] : ##### was used to generate the favicon for the website.
-	* #### [W3C Markup Validation Service][def20] : ##### has been used to validate the code on all pages and style.css.
+	* #### [GitHub][def11] : It is used as the repository for the project's code after being pushed from Git.
+	* #### [Powerpoint][def12] : was used for resizing images and editing photos and screenshots for Readme. It is also used for designing flyers for event pages.
+	* #### [Balsamiq][def13] : was used to create the wireframes during the design process.
+	* #### [Coolors][def14] : was used to find complimenting colors to saffron for the website color palette.
+	* #### [TinyPng][def15] : was used to compress the images that are used in the website, especially on the gallery page.
+	* #### [ShrinkMedia by PixelBin.io][def16] : has been used to compress further and resize the images used on the website.
+	* #### [Bootstrap][def17] : codes from Bootsrap grid html and Css library has been used in the events.html page to align the coontent in columns and rows.
+	* #### [Autoprefixer CSS online][def18] : has been used to parse the CSS in style.css to add different browser prefixes to ensure the CSS works on all browsers.
+	* #### [favicon.io][def19] : was used to generate the favicon for the website.
+	* #### [W3C Markup Validation Service][def20] : has been used to validate the code on all pages and style.css.
 	
 - ## Testing
 ------------
