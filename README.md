@@ -13,8 +13,8 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 + [User Experience (UX)](#-user-experience-ux)
 	* [User Stories](#user-stories)
-		- [First Time Visitor Goals](#afirst-time-visitor-goals)
-		- [Returning Visitor Goals](#breturning-visitor-goals)
+		- [First Time Visitor Goals](#a-first-time-visitor-goals)
+		- [Returning Visitor Goals](#b-returning-visitor-goals)
 		- [Frequent User Goals][def2]		
 + [UX Planes](#ux-planes)
 	* [Strategy](#strategy)
@@ -97,13 +97,13 @@ As a User from all different age groups and technical abilities I want the websi
 	2. As a First Time Visitor, I want to be able to easily find out about activities run by the organisation.
 	3. As a First Time Visitor, I want to be able to easily show my interest in becoming a member.
 	4. As a First Time Visitor, I want to be able to easily navigate through the website to access various pages and return to homepage.
-	5. As a First Time Visitor, I want to be able to put up my questions to the organisation to help me settle in foreign country far from home.
+	5. As a First Time Visitor, I want to be able to put up my questions to the organisation (whilst knowning that my query has been sent) to help me settle in foreign country far from home.
 	6. As a First Time Visitor, I want to be able to see photographs of previous events organised.
 	7. As a First Time Visitor, I want to be able to join social media groups of the society easily.
 
 -   #### B. Returning Visitor Goals
 	1. As a returning visitor, I want to be able to access and view the upcoming event details, photographs and query pages quickly.
-	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
+	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership whilst be assured that by query has been received.
 	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
 -   #### C. Frequent User Goals
@@ -372,6 +372,15 @@ As a User from all different age groups and technical abilities I want the websi
 
 - ## Credits
 ------------
+- ### Content
+	* Some of my content on the main page such as 'About Us' is roughly based on Maharashtra Mandal London website.
+	* All other content has been drafted by the developer.
+- ### Code
+	* Code on how to present a 'Call-out' text in front of the Hero Image (on home page, Contact us page and has been adapted from the Thrive project by Elaine Broche.
+	* Code for the hover effect on info cards on Home page was an play around with some examples from  (https://codepen.io/wikyware-net/pen/abwVORa)
+	* I have used Bootstrap grid classes to implement structure on Events page.
+
+
 1.	https://depositphotos.com/free-files/india.html?sorting=newest&sh=a6d15b82025110fdce3b9fec501449f76b4e05ec
 2.	https://codepen.io/wikyware-net/pen/abwVORa
 3.	https://www.vecteezy.com/vector-art/1178887-orange-mandala-background
@@ -390,7 +399,7 @@ As a User from all different age groups and technical abilities I want the websi
 
 
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
-[def2]: #cfrequent-user-goals
+[def2]: #c-frequent-user-goals
 [def3]: future-implementations
 [def4]: ./documentation/homepagewireframe.png
 [def5]: ./documentation/eventspagewireframe.png
