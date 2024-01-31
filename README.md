@@ -188,85 +188,117 @@ As a User from all different age groups and technical abilities I want the websi
 	+ #### Features
 		* ##### F1.1 Navigation Bar
 			- The navigation....
-			![F1.1][def41]
+			![F1.1][def78]
+
 		* ##### F1.2 Landing Page
 			- Landing Page image and call to action		
 			- Hero section with an image 
 			- Each page displays the site Logo, with the page title below - it is for easy user navigation.
 			- Below this, there is an animated call-to-action button to view more.
 			![F1.2][def47]
+
 		* ##### F1.3 Information Cards
 			- 
 			- 
 			![F1.3][def50]
 			![F1.3.][def51]
 			![F1.3responsive][def54]
+
 		* ##### F1.4 Footer
 			- 
 			![F1.4][def53]
+
+------------			
+
 ![Events Page][def25]
 - ### Events Page
 	+ #### Features
 		* ##### F2.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
+
 		* ##### F2.2 Event 1
 			- 
 			![F2.2][def52]
+
 		* ##### F2.3 Event 2
 			- 
 			![F2.3][def55]
+
 		* ##### F2.4 Footer
 			- Repeats the same on all pages for consistency in UX.
+
+------------		
+
 ![Gallery Page][def26]
 - ### Gallery Page
 	+ #### Features
 		* ##### F3.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
+
 		* ##### F3.2 Event Title
 			- 
 			![F3.2][def56]
+
 		* ##### F3.3 Photograph Grid
 			- 
 			![F3.3][def57]
+
 		* ##### F3.4 Event Title
 			- 
 			![F3.4][def58]
+
 		* ##### F3.5 Photograph Grid
 			- 
 			![F3.5][def59]
+
 		* ##### F3.6 Event Title
 			- 
 			![F3.6][def61]
+
 		* ##### F3.7 Photograph Grid
 			- 
 			![F3.7][def60]
+
 		* ##### F3.8 Footer
 			- Repeats the same on all pages for consistency in UX.
+
+------------
+
 ![Contact Page][def27]
 - ### Contact Page
 	+ #### Features
 		* ##### F4.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
+
 		* ##### F4.2 Contact Form Call-out
 			- 
 			![F4.2][def62]
+
 		* ##### F4.3 Flipped Hero Image
 			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
 			![F4.3][def63]
+
 		* ##### F4.4 Footer
 			- Repeats the same on all pages for consistency in UX.
+
+------------
+
 ![Thank You Page][def28]
 - ### Thank you Page
 	+ #### Features
 		* ##### F5.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
+
 		* ##### F5.2 Confirmation Message
 			- 
 			![F5.2][def64]
+
 		* ##### F5.3 Flipped Hero Image
 			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
+
 		* ##### F5.4 Footer
 			- Repeats the same on all pages for consistency in UX.
+------------			
 - ### How these features support the User Stories
 	![Table][def74]
 	
@@ -470,7 +502,7 @@ As a User from all different age groups and technical abilities I want the websi
 [def44]: ./documentation/playfair.png
 [def45]: ./documentation/karma.png
 [def46]: ./assets/images/heroimg3.jpg
-[def47]: (./documentation/heroimgcallout.pn
+[def47]: ./documentation/heroimgcallout.png
 [def48]: ./assets/images/footer.jpg
 [def49]: ./assets/images/favicon.png
 [def50]: ./documentation/cards.png
@@ -501,3 +533,4 @@ As a User from all different age groups and technical abilities I want the websi
 [def75]: https://codepen.io/wikyware-net/pen/abwVORa
 [def76]: https://www.buymeacoffee.com/tech2etc
 [def77]: https://www.vecteezy.com/members/graphicsrf
+[def78]: ./documentation/nav.png
