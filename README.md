@@ -64,7 +64,7 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 			- [F5.2 Confirmation Message](#f52-confirmation-message)
 			- [F5.3 Flipped Hero Image](#f53-flipped-hero-image)
 			- [F5.4 Footer](#f54-footer)
-	* [How These Features Support the User Stories](#how-these-features-support-the-user-stories)
+	* [Traceability Matrix](#traceability-matrix)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
 	* [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -82,7 +82,6 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Results](#results)
 		- [Repairs to Optimize](#repairs-to-optimize)
 + [Browser Compatibility](#browser-compatibility)
-+ [Known Bugs](#known-bugs) 
 + [Deployment and Cloning](#deployment-and-cloning)
 + [Credits](#credits)
 + [Gratitude](#gratitude)
@@ -187,25 +186,25 @@ As a User from all different age groups and technical abilities I want the websi
 - ### Home Page
 	+ #### Features
 		* ##### F1.1 Navigation Bar
-			- The navigation....
+			- The navigation bar has a Logo that has a link to navigate back to home-page at any time also the nav bar makes it easier for users to intuitively navigate through various sections of the website without the requirement to use the back button to navigate through the site.
 			![F1.1][def78]
 
 		* ##### F1.2 Landing Page
 			- Landing Page image and call to action		
-			- Hero section with an image 
-			- Each page displays the site Logo, with the page title below - it is for easy user navigation.
-			- Below this, there is an animated call-to-action button to view more.
+			- Hero section with an image 	
+			- This section contains a form to input your email address to sign up and become a member
 			![F1.2][def47]
 
 		* ##### F1.3 Information Cards
-			- 
-			- 
+			- These are information cards that contain a header text on top to display the topic heading of the legend.
+			- Hover over or clicking on these cards triggers the legend text to be displayed.			- 
 			![F1.3][def50]
 			![F1.3.][def51]
 			![F1.3responsive][def54]
 
 		* ##### F1.4 Footer
-			- 
+			- Footer section is ensured to stay on the bootom of the page at all times. 
+			- The footer bar features links to social media pages for Facebook and Instagram. When clicked on it should redirect the user to the social media homepage in a new window.
 			![F1.4][def53]
 
 ------------			
@@ -217,11 +216,13 @@ As a User from all different age groups and technical abilities I want the websi
 			- Repeats the same on all pages for consistency in UX.
 
 		* ##### F2.2 Event 1
-			- 
+			- The event flyer should feature on one-third height of the back-ground image on the Mandala side (left-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
+			- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
 			![F2.2][def52]
 
 		* ##### F2.3 Event 2
-			- 
+			- The event flyer should feature on one-third height of the back-ground image on the Mandala side (right-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
+			- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
 			![F2.3][def55]
 
 		* ##### F2.4 Footer
@@ -236,27 +237,39 @@ As a User from all different age groups and technical abilities I want the websi
 			- Repeats the same on all pages for consistency in UX.
 
 		* ##### F3.2 Event Title
-			- 
+			- Displays on a separate container with a partially opaque background.
+			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
 			![F3.2][def56]
 
 		* ##### F3.3 Photograph Grid
-			- 
+			- A responsive photo gallery that is categorised by separate events.
+			- each photo has a border to make it pop out.
+			- Having a rounded border radius is also consistent with the website style throughout.
+			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
 			![F3.3][def57]
 
 		* ##### F3.4 Event Title
-			- 
+			- Displays on a separate container with a partially opaque background.
+			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
 			![F3.4][def58]
 
 		* ##### F3.5 Photograph Grid
-			- 
+			- A responsive photo gallery that is categorised by separate events.
+			- each photo has a border to make it pop out.
+			- Having a rounded border radius is also consistent with the website style throughout.
+			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
 			![F3.5][def59]
 
 		* ##### F3.6 Event Title
-			- 
+			- Displays on a separate container with a partially opaque background.
+			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos. 
 			![F3.6][def61]
 
 		* ##### F3.7 Photograph Grid
-			- 
+			- A responsive photo gallery that is categorised by separate events.
+			- each photo has a border to make it pop out.
+			- Having a rounded border radius is also consistent with the website style throughout.
+			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
 			![F3.7][def60]
 
 		* ##### F3.8 Footer
@@ -270,8 +283,11 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F4.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
 
-		* ##### F4.2 Contact Form Call-out
-			- 
+		* ##### F4.2 Contact Form
+			- The contact page features a form that uses placeholder texts as a label and on research when spoken to friends, family members and colleagues they found that label was not required wihtin these forms as they are self explanatory due to the placeholder text.
+			- All the features are contained within a red border with border radius to be consistent with the website style thourghout.
+			- All fields are marked required so return a required prompt when left blank.
+			- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
 			![F4.2][def62]
 
 		* ##### F4.3 Flipped Hero Image
@@ -290,7 +306,7 @@ As a User from all different age groups and technical abilities I want the websi
 			- Repeats the same on all pages for consistency in UX.
 
 		* ##### F5.2 Confirmation Message
-			- 
+			- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
 			![F5.2][def64]
 
 		* ##### F5.3 Flipped Hero Image
@@ -299,7 +315,7 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F5.4 Footer
 			- Repeats the same on all pages for consistency in UX.
 ------------			
-- ### How these features support the User Stories
+- ### Traceability Matrix
 	![Table][def74]
 	
 - ## **Technologies Used**
@@ -375,6 +391,8 @@ As a User from all different age groups and technical abilities I want the websi
 		![**Contact Page Result**][def39]
 		+ **Thank You Page Result**
 		![**Thank You Page Result**][def40]
+	* #### Test Cases and Results
+	![Table2][def79]		
 
 - ## Browser Compatibility
 ------------
@@ -534,3 +552,4 @@ As a User from all different age groups and technical abilities I want the websi
 [def76]: https://www.buymeacoffee.com/tech2etc
 [def77]: https://www.vecteezy.com/members/graphicsrf
 [def78]: ./documentation/nav.png
+[def79]: ./documentation/table2.png
