@@ -346,9 +346,10 @@ As a User from all different age groups and technical abilities I want the websi
 
 - ## Browser Compatibility
 ------------
-
-- ## Known Bugs
-------------
+* Testing has been carried out on the following browsers :
+	- Chrome Version 120.0.6099.225 (Official Build) (64-bit)
+	- Firefox Version 122.0 (64-bit)
+	- Edge Version 121.0.2277.83 (Official build) (64-bit)
 
 - ## Deployment and Cloning
 ------------- 
@@ -386,7 +387,7 @@ As a User from all different age groups and technical abilities I want the websi
 	* [The back-ground Mandal image](./documentation/himage2.png) a vector art by [Matt Cole][def77]
 	* [Flyer 1 image on Events Page](./assets/images/flyer1.jpg) a vector art by [Simran Singh](https://www.vecteezy.com/members/firststyles)
 	* [Flyer 2 on events page](./assets/images/flyer2.jpg) was created using [Freepik](https://www.freepik.com/)
-	All images on Gallery page has been downloaded from [Unsplash](https://unsplash.com/)
+	* All images on Gallery page has been downloaded from [Unsplash](https://unsplash.com/)
 	* [Idol of Hindu god Ganesh decorated with flowers](./assets/images/gallery-images/image1.jpg) by [Bhumil Chheda](https://unsplash.com/@bhumil15)
 	* [A collection of idols of Hindu god Ganesh ready for sale](./assets/images/gallery-images/image2.jpg) by [Sonika Agarwal](https://unsplash.com/@sonika_agarwal)
 	* [Bid idol of Hindu god Ganesh surrounded in red coloured powder flying](./assets/images/gallery-images/image4.jpg) by [Sudarshan Poojary](https://unsplash.com/@sudarshan__poojary)
@@ -404,11 +405,20 @@ As a User from all different age groups and technical abilities I want the websi
 	* [Hands with rufous coloured henna designs](./assets/images/gallery-images/image11.jpg) by [Ravi Sharma](https://unsplash.com/photos/women-with-mendhi-tattoos-NNWeEUR88gw)
 	* [People gathered on street dressed in white and red traditional attire, ready for a procession](./assets/images/gallery-images/image12.jpg) by [Akash Gurle](https://unsplash.com/photos/a-man-and-woman-in-a-crowd-fZPqUN3QPFY)
 	* [Indian savoury cakes made of sago and potato](./assets/images/gallery-images/image16.jpg) by [Prchi Palwe](https://unsplash.com/photos/person-holding-red-raspberry-fruit-mZaW4oV3tnA)
-	* 
-
-
+	* [Indian classical dancers posing for photo](./assets/images/gallery-images/image19.jpg) by [Gagan Kumar](https://unsplash.com/photos/a-group-of-people-that-are-standing-on-a-stage-r8QbBMYPu_o)
+	* [colourful lanterns decorated for Diwali](./assets/images/gallery-images/image20.jpg) by [Phalguni Mestry](https://unsplash.com/photos/a-brightly-lit-room-with-a-skull-hanging-from-the-ceiling-YfMfcvvVdTk)
+	* [two women smear vermillion to celebrate Diwali](./assets/images/gallery-images/image21.jpg) by [Dibakar Roy](https://unsplash.com/photos/a-couple-of-women-standing-next-to-each-other-yACnPmnti4c)
+	* [a selection of flowers, sweets and pooja items](./assets/images/gallery-images/image22.jpg) by [Kabita Darlami](https://unsplash.com/photos/person-in-white-long-sleeve-shirt-holding-white-ceramic-plate-with-food-WmLhtoqsIiw)
+	* [Indian classical dancer posing in white saree](./assets/images/gallery-images/image23.jpg) by [Sanjoy Sadhukan](https://unsplash.com/photos/woman-in-red-and-white-sari-standing-on-gray-concrete-floor-during-daytime-lD4iMLbTcIk)
+	* [Group of drummers getting ready to play](./assets/images/gallery-images/image24.jpg) by [Amit Chivilkar](https://unsplash.com/photos/people-gathering-outside-and-playing-musical-drums-at-daytime-S8qrTHP2zf4)
+	* [People gathered while a priest performs pooja](./assets/images/gallery-images/image25.jpg) by [Partho Roy](https://unsplash.com/photos/people-walking-towards-hindu-deity-statue-o9e6ItFOIh0)
+	* [people stand around and watch while lamps are lit for Diwali](./assets/images/gallery-images/image26.jpg) by [Bhargav Panchal](https://unsplash.com/photos/a-group-of-people-standing-around-a-table-with-candles-i1RY7TAtPno)
+	* [Sparklers lit for Diwali](./assets/images/gallery-images/image27.jpg) by [Praveen Kumar Mathivanan](https://unsplash.com/photos/lit-sparkler-PeWF9sHevNQ)
 
 - ## Gratitude
+	* I would like to thank my mentor Dick Vlaanderen for all the coaching and helping me with their insight and experience.
+	* thanks to tutor Jason, who helped me arrange folders within my repository and ensure my deployment worked well.
+	* Thank you to Md—Fahim Kabir Hamim for the lessons on Tech2 etc.
 
 
 
