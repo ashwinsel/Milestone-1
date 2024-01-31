@@ -29,41 +29,36 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Colour Scheme](#colour-scheme)
 		- [Typography](#typography)
 		- [Imagery](#imagery)
-+ [Structure and Features](#structure)
-	* [Home Page](#home-page)
-		- [Features](#home-page-features)
-			- [F1.1 Navigation Bar](f11-navigation-bar)
-			- [F1.2 Landing Page](f22-landing-page)
-			- [F1.3 Information Cards](f13-information-cards)
-			- [F1.4 Footer](f14-footer)
-	* [Events Page](#events-page)
-		- [Features](#events-page-features)
-			- [F2.1 Navigation Bar](f21-navigation-bar)
-			- [F2.2 Event Details](f22-event-1)
-			- [F2.3 Event Details](f23-event-2)
-			- [F2.4 Footer](f24-footer)
-	* [Gallery Page](#gallery-page)
-		-  [Features](#gallery-page-features)
-			- [F3.1 Navigation Bar](f31-navigation-bar)
-			- [F3.2 Event Title](f32-event-title)
-			- [F3.3 Photograph Grid](f33-photograph-grid)
-			- [F3.4 Event Title](f34-event-title)
-			- [F3.5 Photograph Grid](f35-photograph-grid)
-			- [F3.6 Event Title](f36-event-title)
-			- [F3.7 Photograph Grid](f37-photograph-grid)
-			- [F3.8 Footer](f38-footer)
-	* [Contact Page](#contact-page)
-		- [Features](#contact-page-features)
-			- [F4.1 Navigation Bar](f41-navigation-bar)
-			- [F4.2 Contact Form](f42-contact-form)
-			- [F4.3 Flipped Hero Image](f43-flipped-hero-image)
-			- [F4.4 Footer](f44-footer)
-	* [Thank You Page](#thank-you-page)
-		- [Features](#thank-you-page-features)
-			- [F5.1 Navigation Bar](#f51-navigation-bar)
-			- [F5.2 Confirmation Message](#f52-confirmation-message)
-			- [F5.3 Flipped Hero Image](#f53-flipped-hero-image)
-			- [F5.4 Footer](#f54-footer)
++ [Features](#features)
+	* [Home Page Features](#home-page-features)
+		- [F1.1 Navigation Bar](#f11-navigation-bar)
+		- [F1.2 Landing Page](#f12-landing-page)
+		- [F1.3 Information Cards](#f13-information-cards)
+		- [F1.4 Footer](#f14-footer)
+	* [Events Page Features](#events-page-features)
+		- [F2.1 Navigation Bar](#f21-navigation-bar)
+		- [F2.2 Event Details](#f22-event-1)
+		- [F2.3 Event Details](#f23-event-2)
+		- [F2.4 Footer](#f24-footer)
+	* [Gallery Page Features](#gallery-page-features)
+		- [F3.1 Navigation Bar](#f31-navigation-bar)
+		- [F3.2 Event Title](#f32-event-title)
+		- [F3.3 Photograph Grid](#f33-photograph-grid)
+		- [F3.4 Event Title](#f34-event-title)
+		- [F3.5 Photograph Grid](#f35-photograph-grid)
+		- [F3.6 Event Title](#f36-event-title)
+		- [F3.7 Photograph Grid](#f37-photograph-grid)
+		- [F3.8 Footer](#f38-footer)
+	* [Contact Page Features](#contact-page-features)
+		- [F4.1 Navigation Bar](#f41-navigation-bar)
+		- [F4.2 Contact Form](#f42-contact-form)
+		- [F4.3 Flipped Hero Image](#f43-flipped-hero-image)
+		- [F4.4 Footer](#f44-footer)
+	* [Thank You Page Features](#thank-you-page-features)
+		- [F5.1 Navigation Bar](#f51-navigation-bar)
+		- [F5.2 Confirmation Message](#f52-confirmation-message)
+		- [F5.3 Flipped Hero Image](#f53-flipped-hero-image)
+		- [F5.4 Footer](#f54-footer)
 	* [Traceability Matrix](#traceability-matrix)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
@@ -180,140 +175,135 @@ As a User from all different age groups and technical abilities I want the websi
 		* All the images used are license free or been used with owners consent. The sources are listed in the Credits section.
 		* Images used were compressed using tinyfy tool on the first instance, however, this did not suffice (as reflected in lighthouse testing) Therefore Shrink.media online tool was used to futher compress for better performance and user experience.
 
-## **Structure**
+## **Features**
 ------------
 ![Home Page][def24]
-- ### Home Page
-	+ #### Features
-		* ##### F1.1 Navigation Bar
-			- The navigation bar has a Logo that has a link to navigate back to home-page at any time also the nav bar makes it easier for users to intuitively navigate through various sections of the website without the requirement to use the back button to navigate through the site.
-			![F1.1][def78]
+- ### Home Page Features
+	* ##### F1.1 Navigation Bar
+		- The navigation bar has a Logo that has a link to navigate back to home-page at any time also the nav bar makes it easier for users to intuitively navigate through various sections of the website without the requirement to use the back button to navigate through the site.
+		![F1.1][def78]
 
-		* ##### F1.2 Landing Page
-			- Landing Page image and call to action		
-			- Hero section with an image 	
-			- This section contains a form to input your email address to sign up and become a member
-			![F1.2][def47]
+	* ##### F1.2 Landing Page
+		- Landing Page image and call to action		
+		- Hero section with an image 	
+		- This section contains a form to input your email address to sign up and become a member
+		![F1.2][def47]
 
-		* ##### F1.3 Information Cards
-			- These are information cards that contain a header text on top to display the topic heading of the legend.
-			- Hover over or clicking on these cards triggers the legend text to be displayed.			- 
-			![F1.3][def50]
-			![F1.3.][def51]
-			![F1.3responsive][def54]
+	* ##### F1.3 Information Cards
+		- These are information cards that contain a header text on top to display the topic heading of the legend.
+		- Hover over or clicking on these cards triggers the legend text to be displayed.			- 
+		![F1.3][def50]
+		![F1.3.][def51]
+		![F1.3responsive][def54]
 
-		* ##### F1.4 Footer
-			- Footer section is ensured to stay on the bootom of the page at all times. 
-			- The footer bar features links to social media pages for Facebook and Instagram. When clicked on it should redirect the user to the social media homepage in a new window.
-			![F1.4][def53]
+	* ##### F1.4 Footer
+		- Footer section is ensured to stay on the bootom of the page at all times. 
+		- The footer bar features links to social media pages for Facebook and Instagram. When clicked on it should redirect the user to the social media homepage in a new window.
+		![F1.4][def53]
 
 ------------			
 
 ![Events Page][def25]
-- ### Events Page
-	+ #### Features
-		* ##### F2.1 Navigation Bar
-			- Repeats the same on all pages for consistency in UX.
+- ### Events Page Features
+	* ##### F2.1 Navigation Bar
+		- Repeats the same on all pages for consistency in UX.
 
-		* ##### F2.2 Event 1
-			- The event flyer should feature on one-third height of the back-ground image on the Mandala side (left-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
-			- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
+	* ##### F2.2 Event 1
+		- The event flyer should feature on one-third height of the back-ground image on the Mandala side (left-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
+		- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
 			![F2.2][def52]
 
-		* ##### F2.3 Event 2
-			- The event flyer should feature on one-third height of the back-ground image on the Mandala side (right-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
-			- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
+	* ##### F2.3 Event 2
+		- The event flyer should feature on one-third height of the back-ground image on the Mandala side (right-side) therefore leaving a clear background on available real-estate to clearly visible event details. 
+		- When this is opened on smaller screens the image is set to 0 height so that the screen covers only the details.
 			![F2.3][def55]
 
-		* ##### F2.4 Footer
-			- Repeats the same on all pages for consistency in UX.
+	* ##### F2.4 Footer
+		- Repeats the same on all pages for consistency in UX.
 
 ------------		
 
 ![Gallery Page][def26]
-- ### Gallery Page
-	+ #### Features
-		* ##### F3.1 Navigation Bar
+- ### Gallery Page Features
+	* ##### F3.1 Navigation Bar
 			- Repeats the same on all pages for consistency in UX.
 
-		* ##### F3.2 Event Title
-			- Displays on a separate container with a partially opaque background.
-			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
+	* ##### F3.2 Event Title
+		- Displays on a separate container with a partially opaque background.
+		- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
 			![F3.2][def56]
 
-		* ##### F3.3 Photograph Grid
-			- A responsive photo gallery that is categorised by separate events.
-			- each photo has a border to make it pop out.
-			- Having a rounded border radius is also consistent with the website style throughout.
-			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
-			![F3.3][def57]
+	* ##### F3.3 Photograph Grid
+		- A responsive photo gallery that is categorised by separate events.
+		- each photo has a border to make it pop out.
+		- Having a rounded border radius is also consistent with the website style throughout.
+		- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
+		![F3.3][def57]
 
-		* ##### F3.4 Event Title
-			- Displays on a separate container with a partially opaque background.
-			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
-			![F3.4][def58]
+	* ##### F3.4 Event Title
+		- Displays on a separate container with a partially opaque background.
+		- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos.
+		![F3.4][def58]
 
-		* ##### F3.5 Photograph Grid
-			- A responsive photo gallery that is categorised by separate events.
-			- each photo has a border to make it pop out.
-			- Having a rounded border radius is also consistent with the website style throughout.
-			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
-			![F3.5][def59]
+	* ##### F3.5 Photograph Grid
+		- A responsive photo gallery that is categorised by separate events.
+		- each photo has a border to make it pop out.
+		- Having a rounded border radius is also consistent with the website style throughout.
+		- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
+		![F3.5][def59]
 
-		* ##### F3.6 Event Title
-			- Displays on a separate container with a partially opaque background.
-			- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos. 
-			![F3.6][def61]
+	* ##### F3.6 Event Title
+		- Displays on a separate container with a partially opaque background.
+		- Each photo-grid is separated by the event title so that the user can easily spot the relevant photos. 
+		![F3.6][def61]
 
-		* ##### F3.7 Photograph Grid
-			- A responsive photo gallery that is categorised by separate events.
-			- each photo has a border to make it pop out.
-			- Having a rounded border radius is also consistent with the website style throughout.
-			- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
-			![F3.7][def60]
+	* ##### F3.7 Photograph Grid
+		- A responsive photo gallery that is categorised by separate events.
+		- each photo has a border to make it pop out.
+		- Having a rounded border radius is also consistent with the website style throughout.
+		- It has been ensured that each image has a detailed alt attribute for accesibility for visibily impaired users.
+		![F3.7][def60]
 
-		* ##### F3.8 Footer
-			- Repeats the same on all pages for consistency in UX.
+	* ##### F3.8 Footer
+		- Repeats the same on all pages for consistency in UX.
 
 ------------
 
 ![Contact Page][def27]
-- ### Contact Page
-	+ #### Features
-		* ##### F4.1 Navigation Bar
-			- Repeats the same on all pages for consistency in UX.
+- ### Contact Page Features
+	* ##### F4.1 Navigation Bar
+		- Repeats the same on all pages for consistency in UX.
 
-		* ##### F4.2 Contact Form
-			- The contact page features a form that uses placeholder texts as a label and on research when spoken to friends, family members and colleagues they found that label was not required wihtin these forms as they are self explanatory due to the placeholder text.
-			- All the features are contained within a red border with border radius to be consistent with the website style thourghout.
-			- All fields are marked required so return a required prompt when left blank.
-			- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
-			![F4.2][def62]
+	* ##### F4.2 Contact Form
+		- The contact page features a form that uses placeholder texts as a label and on research when spoken to friends, family members and colleagues they found that label was not required wihtin these forms as they are self explanatory due to the placeholder text.
+		- All the features are contained within a red border with border radius to be consistent with the website style thourghout.
+		- All fields are marked required so return a required prompt when left blank.
+		- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
+		![F4.2][def62]
 
-		* ##### F4.3 Flipped Hero Image
-			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
-			![F4.3][def63]
+	* ##### F4.3 Flipped Hero Image
+		- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
+		![F4.3][def63]
 
-		* ##### F4.4 Footer
-			- Repeats the same on all pages for consistency in UX.
+	* ##### F4.4 Footer
+		- Repeats the same on all pages for consistency in UX.
 
 ------------
 
 ![Thank You Page][def28]
-- ### Thank you Page
-	+ #### Features
-		* ##### F5.1 Navigation Bar
-			- Repeats the same on all pages for consistency in UX.
+- ### Thank you Page Features
+	* ##### F5.1 Navigation Bar
+		- Repeats the same on all pages for consistency in UX.
 
-		* ##### F5.2 Confirmation Message
-			- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
-			![F5.2][def64]
+	* ##### F5.2 Confirmation Message
+		- For best UX the submission of this form brings up a receipt page which is the thank you page and user is able to navigate back from this page using nav links.
+		![F5.2][def64]
 
-		* ##### F5.3 Flipped Hero Image
-			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
+	* ##### F5.3 Flipped Hero Image
+		- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
 
-		* ##### F5.4 Footer
-			- Repeats the same on all pages for consistency in UX.
+	* ##### F5.4 Footer
+		- Repeats the same on all pages for consistency in UX.
 ------------			
 - ### Traceability Matrix
 	![Table][def74]
@@ -475,7 +465,7 @@ As a User from all different age groups and technical abilities I want the websi
 
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
 [def2]: #c-frequent-user-goals
-[def3]: future-implementations
+[def3]: #future-implementations
 [def4]: ./documentation/homepagewireframe.png
 [def5]: ./documentation/eventspagewireframe.png
 [def6]: ./documentation/gallerypagewireframe.png
