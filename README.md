@@ -376,22 +376,37 @@ As a User from all different age groups and technical abilities I want the websi
 	* Some of my content on the main page such as 'About Us' is roughly based on Maharashtra Mandal London website.
 	* All other content has been drafted by the developer.
 - ### Code
-	* Code on how to present a 'Call-out' text in front of the Hero Image (on home page, Contact us page and has been adapted from the Thrive project by Elaine Broche.
-	* Code for the hover effect on info cards on Home page was an play around with some examples from  (https://codepen.io/wikyware-net/pen/abwVORa)
+	* Code on how to present a 'Call-out' text in front of the Hero Image (on home page, Contact us page) and has been adapted from the Thrive project by Elaine Broche.
+	* Code for the hover effect on info cards on Home page was an play around with some examples from  [Codepen][def75]
 	* I have used Bootstrap grid classes to implement structure on Events page.
+	* Responsive Photo gallery has been created using a tutorial on [Buy me a cofee][def76]
+	* Hover effects on throughout has been created by using tutorials on [W3schools](https://www.w3schools.com/cssref/sel_hover.php)
+
+- ### Media
+	* [The back-ground Mandal image](./documentation/himage2.png) a vector art by [Matt Cole][def77]
+	* [Flyer 1 image on Events Page](./assets/images/flyer1.jpg) a vector art by [Simran Singh](https://www.vecteezy.com/members/firststyles)
+	* [Flyer 2 on events page](./assets/images/flyer2.jpg) was created using [Freepik](https://www.freepik.com/)
+	All images on Gallery page has been downloaded from [Unsplash](https://unsplash.com/)
+	* [Idol of Hindu god Ganesh decorated with flowers](./assets/images/gallery-images/image1.jpg) by [Bhumil Chheda](https://unsplash.com/@bhumil15)
+	* [A collection of idols of Hindu god Ganesh ready for sale](./assets/images/gallery-images/image2.jpg) by [Sonika Agarwal](https://unsplash.com/@sonika_agarwal)
+	* [Bid idol of Hindu god Ganesh surrounded in red coloured powder flying](./assets/images/gallery-images/image4.jpg) by [Sudarshan Poojary](https://unsplash.com/@sudarshan__poojary)
+	* [People carrying decorated idol of Hindu god Ganesh](./assets/images/gallery-images/image3.jpg) by [MA](https://unsplash.com/@miguelalcantara)
+	* [A collection of tiny idols of Hindu god Ganesh ready for sale](./assets/images/gallery-images/image5.jpg) by [Mohnish Landge](https://unsplash.com/@mohnishlandge)
+	* [Woman in traditional attire holding an idol of Hindu god Ganesh in her palm](./assets/images/gallery-images/image6.jpg) by [RDNE STock Project](https://www.pexels.com/@rdne/)
+	* [People in procession coloured in red surrounding a large idol of Hindu god Ganesh](./assets/images/gallery-images/image7.jpg) by [Vishal](https://unsplash.com/@agmt)
+	* [Women welcomes Hindu god Ganesh with open arms in air while people carry an idol in a procession on street](./assets/images/gallery-images/image8.jpg) by [Miguel Alcantra](https://unsplash.com/photos/a-person-holding-a-colorful-umbrella--1v0UYGdlaM)
+	* [Hindu god Ganesh placed in a beautifully decorated altar](./assets/images/gallery-images/image9.jpg) by [Shubham Bombarde](https://unsplash.com/photos/a-statue-of-an-elephant-in-front-of-a-stage-5TwYdsWlvWg)
+	* [Golden bangles, flowers and red coth set on desk ready for Sankranti celebration](./assets/images/gallery-images/image10.jpg) by [Sonika](https://unsplash.com/photos/gold-and-silver-bracelet-on-white-table-m4dagsplsKA)
+	* [Indian sweet made of sesame and jaggery aesthetically placed with flowers around](./assets/images/gallery-images/image13.jpg) by [Prchi Palwe](https://unsplash.com/photos/brown-stone-on-black-surface-yK5YeELbbGw)
+	* [People gathered around in a hall and some sat around a table to celebrate Sankranti](./assets/images/gallery-images/image14.jpg) by [Wonderlane](https://unsplash.com/photos/woman-sitting-at-table-AwhZjiqNt1U)
+	* [Two woman contestants posing and taking a selfie with their phone](./assets/images/gallery-images/image17.jpg) by [Amit Ranjan](https://unsplash.com/photos/woman-in-green-and-black-dress-smiling-xr56_THM_lc)
+	* [Hands flaunting freshly applied henna designs](./assets/images/gallery-images/image18.jpg) by [Vitaliy Lyubezhanin](https://unsplash.com/photos/people-hands-with-tattoes-gfVofr15ICc)
+	* [Hands with rufous coloured henna designs](./assets/images/gallery-images/image11.jpg) by [Ravi Sharma](https://unsplash.com/photos/women-with-mendhi-tattoos-NNWeEUR88gw)
+	* [People gathered on street dressed in white and red traditional attire, ready for a procession](./assets/images/gallery-images/image12.jpg) by [Akash Gurle](https://unsplash.com/photos/a-man-and-woman-in-a-crowd-fZPqUN3QPFY)
+	* [Indian savoury cakes made of sago and potato](./assets/images/gallery-images/image16.jpg) by [Prchi Palwe](https://unsplash.com/photos/person-holding-red-raspberry-fruit-mZaW4oV3tnA)
+	* 
 
 
-1.	https://depositphotos.com/free-files/india.html?sorting=newest&sh=a6d15b82025110fdce3b9fec501449f76b4e05ec
-2.	https://codepen.io/wikyware-net/pen/abwVORa
-3.	https://www.vecteezy.com/vector-art/1178887-orange-mandala-background
-
-5.	https://tinypng.com/
-6.	https://www.w3schools.com/cssref/sel_hover.php
-7.	https://stackoverflow.com/questions/4224476/floatright-reverses-order-of-spans
-8.	<a href="https://www.freepik.com/free-vector/premium-ganesh-chaturthi-festival-greeting-invitation-card-banner_30694935.htm#query=ganpati%20invitation%202024&position=1&from_view=search&track=ais&uuid=5718f004-9a56-4164-ab5d-9edcdb669990">Image by starline</a> on Freepik
-9.	Image by <a href="https://www.freepik.com/free-vector/hand-drawn-ganesh-chaturthi-poster-template-with-elephant_29807165.htm#query=ganpati%20invitation%202024&position=24&from_view=search&track=ais&uuid=5718f004-9a56-4164-ab5d-9edcdb669990">Freepik</a>
-10.	https://autoprefixer.github.io/
-11.	Bootstrap
 
 - ## Gratitude
 
@@ -473,3 +488,6 @@ As a User from all different age groups and technical abilities I want the websi
 [def72]: ./documentation/eventvalresult.png
 [def73]: ./documentation/galleryvalresult.png
 [def74]: ./documentation/table1.png
+[def75]: https://codepen.io/wikyware-net/pen/abwVORa
+[def76]: https://www.buymeacoffee.com/tech2etc
+[def77]: https://www.vecteezy.com/members/graphicsrf
