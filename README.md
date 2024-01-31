@@ -13,8 +13,8 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 
 + [User Experience (UX)](#-user-experience-ux)
 	* [User Stories](#user-stories)
-		- [First Time Visitor Goals](#first-time-visitor-goals)
-		- [Returning Visitor Goals](#returning-visitor-goals)
+		- [First Time Visitor Goals](#afirst-time-visitor-goals)
+		- [Returning Visitor Goals](#breturning-visitor-goals)
 		- [Frequent User Goals][def2]		
 + [UX Planes](#ux-planes)
 	* [Strategy](#strategy)
@@ -39,8 +39,8 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 	* [Events Page](#events-page)
 		- [Features](#events-page-features)
 			- [F2.1 Navigation Bar](f21-navigation-bar)
-			- [F2.2 Event 1](f22-event-1)
-			- [F2.3 Event 2](f23-event-2)
+			- [F2.2 Event Details](f22-event-1)
+			- [F2.3 Event Details](f23-event-2)
 			- [F2.4 Footer](f24-footer)
 	* [Gallery Page](#gallery-page)
 		-  [Features](#gallery-page-features)
@@ -56,13 +56,14 @@ Wales Marathi Society is a site that serves as a point of contact for people res
 		- [Features](#contact-page-features)
 			- [F4.1 Navigation Bar](f41-navigation-bar)
 			- [F4.2 Contact Form](f42-contact-form)
-			- [F4.3 Image](f43-image)
+			- [F4.3 Flipped Hero Image](f43-flipped-hero-image)
 			- [F4.4 Footer](f44-footer)
 	* [Thank You Page](#thank-you-page)
 		- [Features](#thank-you-page-features)
 			- [F5.1 Navigation Bar](#f51-navigation-bar)
 			- [F5.2 Confirmation Message](#f52-confirmation-message)
-			- [F5.3 Footer](#f53-footer)
+			- [F5.3 Flipped Hero Image](#f53-flipped-hero-image)
+			- [F5.4 Footer](#f54-footer)
 	* [How These Features Support the User Stories](#how-these-features-support-the-user-stories)
 + [Technologies Used](#technologies-used)
 	* [Languages Used](#languages-used)
@@ -101,13 +102,12 @@ As a User from all different age groups and technical abilities I want the websi
 	7. As a First Time Visitor, I want to be able to join social media groups of the society easily.
 
 -   #### B. Returning Visitor Goals
-	1. As a returning visitor, I want to be able to access photographs of an event I attended.
+	1. As a returning visitor, I want to be able to access and view the upcoming event details, photographs and query pages quickly.
 	2. As a Returning Visitor, I want to be able to submit a query for renewing my membership.
 	3. As a Returning Visitor, I want to be able to keep track of upcoming events.
 
 -   #### C. Frequent User Goals
-	1. As a Frequent User, I want to be able to acess all the previous event photographs and any other updates.
-	2. As a Frequent User, I want to be able to easily find out about upcoming events.
+	1. As a Frequent User, I want to be able to easily find out about upcoming events and submit any queries.
 ## **UX Planes**
 ------------
 - ### **Strategy**
@@ -250,7 +250,7 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F4.2 Contact Form Call-out
 			- 
 			![F4.2][def62]
-		* ##### F4.3 Image
+		* ##### F4.3 Flipped Hero Image
 			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
 			![F4.3][def63]
 		* ##### F4.4 Footer
@@ -263,16 +263,13 @@ As a User from all different age groups and technical abilities I want the websi
 		* ##### F5.2 Confirmation Message
 			- 
 			![F5.2][def64]
-		* ##### F5.3 Image
+		* ##### F5.3 Flipped Hero Image
 			- Second image for aesthetically pleasing page and also helps push the footer to the bottom of the page.
-		* ##### F5.3 Footer
+		* ##### F5.4 Footer
 			- Repeats the same on all pages for consistency in UX.
 - ### How these features support the User Stories
-		
-			  |                       User Story Reference                          |
-| 			  | Ai| Aii | Aiii | Aiv | Av | Avi | Avii | Bi | Bii | Biii | Ci | Cii |
-| Paragraph   | t | X |
-
+	![Table][def74]
+	
 - ## **Technologies Used**
 ------------
 + ### Languages
@@ -354,7 +351,24 @@ As a User from all different age groups and technical abilities I want the websi
 ------------
 
 - ## Deployment and Cloning
-------------
+------------- 
++ Deployment:
+
+	* 	In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+	* Ensure the source section drop down menu is set to the Main Branch
+
+	* Refresh the page and a link to access the page will appear at the top with an option next to it that says "visit page"
+
+	* Any changes pushed to the master branch will take effect on the live project
+
++ Cloning:
+
+	* visit url - https://github.com/ashwinsel/Milestone-1 this will open the repository on Github
+	* Click on the "Code" green coloured button to the right of the screen, click HTTPs and copy the link there
+	* Open a GitBash terminal and navigate to the directory where you want to locate the clone
+	* On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+
 
 - ## Credits
 ------------
@@ -376,7 +390,7 @@ As a User from all different age groups and technical abilities I want the websi
 
 
 [Cdnfonts]: https://www.cdnfonts.com/samarkan.font
-[def2]: #frequent-user-goals
+[def2]: #cfrequent-user-goals
 [def3]: future-implementations
 [def4]: ./documentation/homepagewireframe.png
 [def5]: ./documentation/eventspagewireframe.png
@@ -449,3 +463,4 @@ As a User from all different age groups and technical abilities I want the websi
 [def71]: ./documentation/homevalresult.jpg
 [def72]: ./documentation/eventvalresult.png
 [def73]: ./documentation/galleryvalresult.png
+[def74]: ./documentation/table1.png
